@@ -50,3 +50,5 @@ In this example:
 - If the `array-subset.py` file is missing, you would need to go to the GeeksforGeeks page for "Array Subset", copy the code, and manually upload it to the `array-subset.py` file in the `Array Subset/` directory.
 
 These steps can be followed to resolve any missing code files in the repository.
+
+> This repository idea was inspired by [iamarghamallick's repository](https://github.com/iamarghamallick/GeeksforGeeks-Solutions), whose solutions you can view [here](https://github.com/iamarghamallick/GeeksforGeeks-Solutions/tree/main).
