@@ -20,11 +20,11 @@ During the automation process, a common issue was closing the browser tab after 
 
 To find the problems that were missing their code files, I followed this method:
 
-1. Go to the respective repository directory: [https://github.com/Runarok/GFG-solutions](https://github.com/Runarok/GFG-solutions).
-2. Change `hub` to `ingest` in the URL: [https://gitingest.com/Runarok/GFG-solutions](https://gitingest.com/Runarok/GFG-solutions).
+1. Go to the respective repository directory: `https://github.com/Runarok/GFG-solutions` [{>..}](https://github.com/Runarok/GFG-solutions).
+2. Change `hub` to `ingest` in the URL: `https://gitingest.com/Runarok/GFG-solutions` [{>..}](https://gitingest.com/Runarok/GFG-solutions).
 3. Manually go through the directory structure to find any missing code files. You can exclude `README.md` files by using `*md` to filter out the markdown files.
 4. Alternatively, you can ask ChatGPT to find missing code files by pasting the directory structure and asking it to identify folders with missing code files.
-   
+
 Once the missing code files are found:
 
 1. Go to the browser history (CTRL + H).
@@ -46,7 +46,7 @@ Once the missing code files are found:
 In this example:
 
 - If the `array-search.py` file is missing, you would need to go to the GeeksforGeeks page for "Array Search", copy the code, and manually upload it to the `array-search.py` file in the `Array Search/` directory.
-  
+
 - If the `array-subset.py` file is missing, you would need to go to the GeeksforGeeks page for "Array Subset", copy the code, and manually upload it to the `array-subset.py` file in the `Array Subset/` directory.
 
 These steps can be followed to resolve any missing code files in the repository.
