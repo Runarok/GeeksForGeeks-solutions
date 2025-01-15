@@ -6,6 +6,8 @@ This repository contains solutions to various problems from GeeksforGeeks (GFG).
 
 All problems in this repository are sourced from GeeksforGeeks. You can explore the problems [here](https://www.geeksforgeeks.org/explore?page=1&sortBy=difficulty).
 
+> [My GFG profile](https://www.geeksforgeeks.org/user/runarokhrafn/).
+
 ## Automation for Uploads
 
 The upload of solutions to this repository was automated using a Chrome extension called [GFG to GitHub](https://chromewebstore.google.com/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk). This extension helps streamline the process of saving solutions to GitHub.
@@ -14,7 +16,9 @@ The repository used for the automation is available at [GfG-To-GitHub](https://g
 
 ## Issues Faced
 
-During the automation process, a common issue was closing the browser tab after solving a problem. This caused the automation to create only the `README.md` file for some problems and not the code file itself. Although this could have been avoided, I was initially unaware of the issue, and as a result, a few problems were missing their code files.
+During the automation process, a common issue was closing the browser tab after solving a problem. This caused the automation to create only the `README.md` file for some problems and not the code file itself. Although this could have been avoided by closing the tab after a minute or two, I was initially unaware of the issue, and as a result, a few problems were missing their code files.
+
+---
 
 ### Trick to Find Missing Files
 
@@ -50,9 +54,5 @@ In this example:
 - If the `array-subset.py` file is missing, you would need to go to the GeeksforGeeks page for "Array Subset", copy the code, and manually upload it to the `array-subset.py` file in the `Array Subset/` directory.
 
 These steps can be followed to resolve any missing code files in the repository.
-
-> [My GFG profile](https://www.geeksforgeeks.org/user/runarokhrafn/).
-
-> You can view my GeeksforGeeks profile [here](https://www.geeksforgeeks.org/user/runarokr4p2/).
 
 > This repository idea was inspired by [iamarghamallick's repository](https://github.com/iamarghamallick), whose solutions you can view [here](https://github.com/iamarghamallick/GeeksforGeeks-Solutions/tree/main).
