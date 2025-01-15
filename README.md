@@ -1,4 +1,4 @@
-# GFG Solutions Repository
+# GeeksForGeeks Solutions Repository
 
 This repository contains solutions to various problems from GeeksforGeeks (GFG). The solutions are organized by difficulty and problem categories, allowing easy access to each problem's solution.
 
@@ -6,7 +6,7 @@ This repository contains solutions to various problems from GeeksforGeeks (GFG).
 
 All problems in this repository are sourced from GeeksforGeeks. You can explore the problems [here](https://www.geeksforgeeks.org/explore?page=1&sortBy=difficulty).
 
-> My GFG profile : [RunarokHrafn](https://www.geeksforgeeks.org/user/runarokhrafn/).
+> My GeeksForGeeks profile : [RunarokHrafn](https://www.geeksforgeeks.org/user/runarokhrafn/).
 
 ## Automation for Uploads
 
@@ -24,8 +24,8 @@ During the automation process, a common issue was closing the browser tab after 
 
 To find the problems that were missing their code files, I followed this method:
 
-1. Go to the respective repository directory: `https://github.com/Runarok/GFG-solutions` [{>..}](https://github.com/Runarok/GFG-solutions).
-2. Change `hub` to `ingest` in the URL: `https://gitingest.com/Runarok/GFG-solutions` [{>..}](https://gitingest.com/Runarok/GFG-solutions).
+1. Go to the respective repository directory: `https://github.com/Runarok/GeeksForGeeks-solutions` [{>..}](https://github.com/Runarok/GeeksForGeeks-solutions).
+2. Change `hub` to `ingest` in the URL: `https://gitingest.com/Runarok/GeeksForGeeks-solutions` [{>..}](https://gitingest.com/Runarok/GeeksForGeeks-solutions).
 3. Manually go through the directory structure to find any missing code files. You can exclude `README.md` files by using `*md` to filter out the markdown files.
 4. Alternatively, you can ask ChatGPT to find missing code files by pasting the directory structure and asking it to identify folders with missing code files.
 
@@ -38,7 +38,7 @@ Once the missing code files are found:
 
 ### Example Directory Structure:
 <pre>
-└── runarok-gfg-solutions/
+└── Runarok-GeeksForGeeks-solutions/
     └── Difficulty: Basic/
         ├── Array Search/
         │   └── README.md
