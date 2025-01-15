@@ -6,7 +6,7 @@ This repository contains solutions to various problems from GeeksforGeeks (GFG).
 
 All problems in this repository are sourced from GeeksforGeeks. You can explore the problems [here](https://www.geeksforgeeks.org/explore?page=1&sortBy=difficulty).
 
-> [My GFG profile](https://www.geeksforgeeks.org/user/runarokhrafn/).
+> My GFG profile : [RunarokHrafn](https://www.geeksforgeeks.org/user/runarokhrafn/).
 
 ## Automation for Uploads
 
