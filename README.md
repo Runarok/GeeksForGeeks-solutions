@@ -39,12 +39,12 @@ Once the missing code files are found:
 ### Example Directory Structure:
 <pre>
 └── runarok-gfg-solutions/
-    ├── Difficulty: Basic/
-    │   ├── Array Search/
-    │   │   ├── README.md
-    │   ├── Array Subset/
-    │   │   ├── README.md
-    │   │   └── array-subset.py
+    └── Difficulty: Basic/
+        ├── Array Search/
+        │   └── README.md
+        └── Array Subset/
+            ├── README.md
+            └── array-subset.py
 </pre>
 
 In this example:
