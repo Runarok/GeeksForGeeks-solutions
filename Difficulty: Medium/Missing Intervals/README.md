@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/missing-intervals3058/1?page=1&company=Google&difficulty=Basic,Easy,Medium,Hard&status=unsolved,attempted&sortBy=submissions">Missing Intervals</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a sorted array <strong>arr</strong><strong>[]</strong> of integers varying from range <strong>l</strong> to <strong>r</strong>. Find all the missing intervals range in array <strong>arr[]</strong> from the given range and return in sorted order.</span><br><span style="font-size: 18px;"><strong>Note:&nbsp;</strong>If no Integer is missing return <strong>{-1,-1}</strong>.</span></p>
+<p><br><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 5, 6, 7, 9], l = 1, r = 9
+<strong>Output: </strong>[{2, 4}, {8, 8}]
+<strong>Explanation: </strong>all the missing intervals which are not present in array are returned.
+</span></pre>
+<p><span style="font-size: 18px;"><strong>Example 2: </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 4, 5, 5], l = 3, r = 5 
+<strong>Output: </strong>[{-1,-1}]<br><strong>Explanation:</strong> There are no missing number from the interval.</span>&nbsp;</pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 ≤ arr.size() ≤ 10<sup>6</sup><br>0 ≤ arr[i]&nbsp;</span><span style="font-size: 18px;">≤</span><span style="font-size: 18px;"> 10</span><sup>6<br></sup><span style="font-size: 18px;">0 ≤ l </span><span style="font-size: 18px;">≤</span><span style="font-size: 18px;"> r </span><span style="font-size: 18px;">≤</span><span style="font-size: 18px;"> 10</span><sup>6</sup></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Google</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
