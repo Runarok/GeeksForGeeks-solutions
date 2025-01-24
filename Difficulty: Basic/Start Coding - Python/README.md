@@ -1,0 +1,3 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/start-coding-python--093158/1?page=1&difficulty=Basic&status=unsolved&sortBy=accuracy">Start Coding - Python</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">When learning a new language, we first learn to output some message. Here we will start with the famous "<strong>Hello World</strong>" message.</span><br><span style="font-size: 14pt;">Complete the python code&nbsp;to print "<strong>Hello World</strong>".</span></p>
+<p><span style="font-size: 14pt;"><strong>Example:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Output: </strong>"Hello World"</span></pre></div>
