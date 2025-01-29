@@ -77,42 +77,40 @@ function main() {
 
 class Solution {
     nQueen(n) {
-        const result = [];
-        const board = new Array(n).fill(0);  // Initialize board with n columns, each having a value 0
-        const usedRows = new Array(n).fill(false);
-        const usedDiag1 = new Array(2 * n - 1).fill(false);  // To track diagonals (r - c)
-        const usedDiag2 = new Array(2 * n - 1).fill(false);  // To track diagonals (r + c)
-
-        const backtrack = (col) => {
-            if (col === n) {
-                // When we've placed all queens, store the current configuration
-                result.push([...board]);
+        const results = [];
+        const cols = new Array(n).fill(false);  // Tracks columns where queens are placed
+        const diag1 = new Array(2 * n - 1).fill(false);  // Tracks main diagonals
+        const diag2 = new Array(2 * n - 1).fill(false);  // Tracks anti-diagonals
+        
+        function backtrack(row, permutation) {
+            if (row === n) {
+                results.push([...permutation]);  // Store a valid solution
                 return;
             }
-            
-            for (let row = 0; row < n; row++) {
-                // Check if it's safe to place a queen at (row, col)
-                if (!usedRows[row] && !usedDiag1[row - col + (n - 1)] && !usedDiag2[row + col]) {
-                    // Mark the row and diagonals as used
-                    board[col] = row + 1;
-                    usedRows[row] = true;
-                    usedDiag1[row - col + (n - 1)] = true;
-                    usedDiag2[row + col] = true;
-                    
-                    // Recursively try to place queens in the next column
-                    backtrack(col + 1);
-                    
-                    // Backtrack: unmark the row and diagonals
-                    usedRows[row] = false;
-                    usedDiag1[row - col + (n - 1)] = false;
-                    usedDiag2[row + col] = false;
-                }
-            }
-        };
 
-        // Start the backtracking from the first column
-        backtrack(0);
-        
-        return result;
+            for (let col = 0; col < n; col++) {
+                if (cols[col] || diag1[row + col] || diag2[row - col + n - 1]) {
+                    continue;  // Skip unsafe positions
+                }
+
+                // Place queen
+                cols[col] = true;
+                diag1[row + col] = true;
+                diag2[row - col + n - 1] = true;
+                permutation.push(col + 1);  // Store 1-based index
+
+                // Recur for the next row
+                backtrack(row + 1, permutation);
+
+                // Backtrack (remove queen)
+                cols[col] = false;
+                diag1[row + col] = false;
+                diag2[row - col + n - 1] = false;
+                permutation.pop();
+            }
+        }
+
+        backtrack(0, []);
+        return results;
     }
 }
