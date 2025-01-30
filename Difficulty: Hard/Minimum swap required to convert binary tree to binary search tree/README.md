@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-swap-required-to-convert-binary-tree-to-binary-search-tree/1?page=1&difficulty=Hard&status=unsolved&sortBy=accuracy">Minimum swap required to convert binary tree to binary search tree</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array&nbsp;<strong>arr[]</strong>&nbsp;which represents&nbsp;a&nbsp;Complete Binary Tree i.e, if index&nbsp;<strong>i</strong>&nbsp;is the parent, index&nbsp;<strong>2*i + 1</strong>&nbsp;is the left child and index&nbsp;<strong>2*i + 2</strong>&nbsp;is the right child.<br>The task is to find the minimum number of swaps required to convert it into a Binary Search Tree.&nbsp;</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [5, 6, 7, 8, 9, 10, 11]
+<strong>Output: </strong>3
+<strong>Explanation:</strong> 
+Binary tree of the given array:
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/880844/Web/Other/blobid0_1732596870.png" width="303" height="266"> <br>Swap 1: Swap node 8 with node 5.
+Swap 2: Swap node 9 with node 10.
+Swap 3: Swap node 10 with node 7.
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/880844/Web/Other/blobid1_1732596347.png" width="300" height="265"> <br>So, minimum 3 swaps are required.</span></pre>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input: </strong><span style="font-size: 18px;">arr[] = [1, 2, 3]<br></span><strong style="font-size: 18px;">Explanation:</strong><span style="font-size: 18px;"> <br>Binary tree of the given array:<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/880844/Web/Other/blobid2_1732596556.png" width="299" height="264"> <br>After swapping node 1 with node 2, obtain the below binary search tree:<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/880844/Web/Other/blobid3_1732596597.png" width="297" height="265"><br></span><strong style="font-size: 18px;">Output: </strong><span style="font-size: 18px;">1</span></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>5<br></sup></span><span style="font-size: 18px;">1 &lt;= arr[i] &lt;= 10<sup>9</sup></span></p></div>
