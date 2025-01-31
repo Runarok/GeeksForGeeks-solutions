@@ -125,3 +125,55 @@ class Solution {
         console.log(result.join(" "));
     }
 }
+
+//---------------------------    Shorter Solution    ----------------------------------
+
+class Solution {
+    /**
+     * @param {number[][]} mat
+     * @return {void} Do not return anything, modify mat in-place instead.
+     */
+    solveSudoku(mat) {
+        const isValid = (board, row, col, num) => {
+            // Check if the number is already in the row
+            for (let i = 0; i < 9; i++) {
+                if (board[row][i] === num) return false;
+            }
+            // Check if the number is already in the column
+            for (let i = 0; i < 9; i++) {
+                if (board[i][col] === num) return false;
+            }
+            // Check if the number is already in the 3x3 subgrid
+            let startRow = 3 * Math.floor(row / 3);
+            let startCol = 3 * Math.floor(col / 3);
+            for (let i = startRow; i < startRow + 3; i++) {
+                for (let j = startCol; j < startCol + 3; j++) {
+                    if (board[i][j] === num) return false;
+                }
+            }
+            return true;
+        };
+
+        const solve = (board) => {
+            for (let row = 0; row < 9; row++) {
+                for (let col = 0; col < 9; col++) {
+                    if (board[row][col] === 0) { // Find an empty cell
+                        for (let num = 1; num <= 9; num++) {
+                            if (isValid(board, row, col, num)) {
+                                board[row][col] = num; // Place the number
+                                if (solve(board)) {
+                                    return true; // Recursively solve
+                                }
+                                board[row][col] = 0; // Backtrack
+                            }
+                        }
+                        return false; // If no valid number can be placed, backtrack
+                    }
+                }
+            }
+            return true; // If no empty cells are left, puzzle is solved
+        };
+
+        solve(mat); // Call the solve function
+    }
+}
