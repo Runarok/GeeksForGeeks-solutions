@@ -58,8 +58,10 @@ In this example:
 Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. Updates will be made as needed, but not on a fixed schedule.
 
 ### Milestones
-- **30 JAN 2024**: Completed all "Hard" tagged problems.
+> (Note: Finished most tags during my 5th semester-end holidays, starting from the 30th)
+- **30 JAN 2024**: Completed all "Hard" tagged problems. 
 - **31 JAN 2024**: Completed all "Linked List" tagged problems.
+- **1 FEB 2024**: Completed SDE Sheet and Beginner's DSA Sheet.
 
 ### Motivation
 I’m not doing this to create a portfolio or for external validation. I simply enjoy the satisfaction of completing something, similar to achieving 100% in a game. I also love coding and the learning process. My goal is to work through all the problems on GeeksforGeeks, improving my skills as I go. I focus on enjoying the journey and learning at my own pace rather than stressing myself out.
