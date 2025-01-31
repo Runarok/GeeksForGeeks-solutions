@@ -71,7 +71,8 @@ I’m not doing this to create a portfolio or anything like that. I just enjoy t
 
 As of **31 JAN 2024**, I decided to update the start of a new section which shows **my progress with all difficulty levels and completion of tagged problems, focusing on gradual improvement over time**.
 
-**31 JAN 2024 - Completed all Hard tagged Programs**
+**30 JAN 2024 - Completed all Hard tagged Programs**
+**31 JAN 2024 - Completed all Linked List tagged Programs**
 
 ---
 
