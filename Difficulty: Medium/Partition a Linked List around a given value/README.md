@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/partition-a-linked-list-around-a-given-value/1?page=1&category=Linked%20List&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Partition a Linked List around a given value</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><div><span style="font-size: 12pt;">Given a linked list and a value <strong>x</strong>, partition it such that all nodes less than x come first, then all nodes with a value equal to x, and finally nodes with a value greater than x. The original relative order of the nodes in each of the three partitions should be preserved. The partition must work in place.</span></div>
+<div>&nbsp;</div>
+<div><span style="font-size: 12pt;"><strong>Examples:</strong></span></div>
+<pre><span style="font-size: 12pt;"><strong>Input: </strong>Linked list:<strong> </strong>1-&gt;4-&gt;3-&gt;2-&gt;5-&gt;2-&gt;3, x = 3
+<strong>Output: </strong>1-&gt;2-&gt;2-&gt;3-&gt;3-&gt;4-&gt;5<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/706230/Web/Other/blobid0_1722448150.png" height="100"><br><strong>Explanation: </strong>Nodes with a value less than 3 come first, then equal to 3 and then greater than 3.
+</span></pre>
+<pre><span style="font-size: 12pt;"><strong>Input: </strong>Linked list: 1-&gt;4-&gt;2-&gt;10, x = 3
+<strong>Output: </strong>1-&gt;2-&gt;4-&gt;10<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/706230/Web/Other/blobid1_1722448159.png" height="100"><br><strong>Explanation: </strong>Nodes with value less than 3 come first, then equal to 3 and then greater than 3.</span></pre>
+<div><span style="font-size: 12pt;"><strong>Expected Time Complexity :</strong> O(n)</span></div>
+<div><span style="font-size: 12pt;"><strong>Expected Space C</strong><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">omplexity</strong><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">:</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> O(n)</span></span></div>
+<div>&nbsp;</div>
+<div><span style="font-size: 12pt;"><strong>Constraints:</strong></span></div>
+<div><span style="font-size: 12pt;">1 &lt;= size of linked list &lt;= 10<sup>5</sup></span></div>
+<div><span style="font-size: 12pt;">1 &lt;= data of node &lt;= 10<sup>5</sup></span></div>
+<div><span style="font-size: 12pt;">1 &lt;= x &lt;= 10<sup>5</sup></span></div></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Microsoft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
