@@ -3,6 +3,16 @@
 This repository contains solutions to various problems from GeeksforGeeks (GFG). The solutions are organized by difficulty and problem categories, allowing easy access to each problem's solution.
 > My GeeksForGeeks profile : [RunarokHrafn](https://www.geeksforgeeks.org/user/runarokhrafn/).
 
+## Table of Contents
+
+1. [Problem Source](#problem-source)
+2. [Automation for Uploads](#automation-for-uploads)
+3. [Issues Faced](#issues-faced)
+4. [Trick to Find Missing Files](#trick-to-find-missing-files)
+5. [Progress Update](#progress-update)
+
+---
+
 ## Problem Source
 
 All problems in this repository are sourced from GeeksforGeeks. You can explore the problems [here](https://www.geeksforgeeks.org/explore?page=1&sortBy=difficulty).
@@ -52,5 +62,17 @@ In this example:
 - If the `array-subset.py` file is missing, you would need to go to the GeeksforGeeks page for "Array Subset", copy the code, and manually upload it to the `array-subset.py` file in the `Array Subset/` directory.
 
 These steps can be followed to resolve any missing code files in the repository.
+
+### Progress Update
+
+I’m not doing this to create a portfolio or anything like that. I just enjoy the feeling of completing something, much like achieving 100% in a game. I also enjoy coding and the learning process, and my goal is simply to work through all the problems on GeeksforGeeks, one way or another, while improving along the way. I know I won’t get as good as I could if I stress myself out, so I’m focusing on enjoying the journey and learning at my own pace.
+
+---
+
+As of **31 JAN 2024**, I decided to update the start of a new section which shows **my progress with all difficulty levels and completion of tagged problems, focusing on gradual improvement over time**.
+
+---
+
+**31 JAN 2024 - Completed all Hard tagged Programs**
 
 > This repository idea was inspired by [iamarghamallick's repository](https://github.com/iamarghamallick), whose solutions you can view [here](https://github.com/iamarghamallick/GeeksforGeeks-Solutions/tree/main).
