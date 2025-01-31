@@ -1,40 +1,10 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/flattening-a-linked-list--170645/1?page=3&category=Linked%20List&status=unsolved&sortBy=accuracy">Flattening a Linked List</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a Linked List of size N, where every node represents a sub-linked-list and contains two pointers:<br>(i) a<strong> next </strong>pointer to the next node,<br>(ii) a<strong>&nbsp;bottom</strong>&nbsp;pointer&nbsp;to a linked list where this node is head.<br>Each of the&nbsp;sub-linked-list is in sorted order.<br>Flatten the Link List such that all the nodes appear in a single level while maintaining the sorted order.&nbsp;</span><br><span style="font-size: 18px;"><strong>Note:</strong> The flattened list will be printed using the bottom pointer instead of next pointer.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input:
-</strong>5 -&gt; 10 -&gt; 19 -&gt; 28
-|     |     |     | 
-7     20    22   35
-|           |     | 
-8          50    40
-|                 | 
-30               45<strong>
-Output: </strong>&nbsp;5-&gt; 7-&gt; 8- &gt; 10 -&gt; 19-&gt; 20-&gt;
-22-&gt; 28-&gt; 30-&gt; 35-&gt; 40-&gt; 45-&gt; 50.
-<strong>Explanation</strong>:
-The resultant linked lists has every 
-node in a single level.
-(<strong>Note: </strong>| represents the bottom pointer.)</span>
+<h2><a href="https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1?page=1&category=Linked%20List&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Flattening a Linked List</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a linked list containing&nbsp;</span><strong style="font-size: 18px;">n</strong><span style="font-size: 18px;">&nbsp;head nodes where every node in the linked list contains two pointers:</span><br><span style="font-size: 18px;">(i)&nbsp;<strong>next&nbsp;</strong>points to the next node in the list.</span><br><span style="font-size: 18px;">(ii)&nbsp;<strong>bottom&nbsp;</strong>pointer to a sub-linked list where the current node is the head.</span><br><span style="font-size: 18px;">Each of the sub-linked lists nodes and the head nodes are sorted in <strong>ascending </strong>order based on their data.</span><br><span style="font-size: 18px;">Your task is to&nbsp;<strong>flatten&nbsp;</strong>the linked list such that all the nodes appear in a single level while maintaining the sorted order.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:<br></strong></span><span style="font-size: 18px;">1. <strong>↓&nbsp;</strong>represents the bottom pointer and <strong>-&gt;</strong> represents the next pointer.<br></span><span style="font-size: 18px;">2.</span><span style="font-size: 18px;">&nbsp;The flattened list will be printed using the&nbsp;</span><strong style="font-size: 18px;">bottom</strong><span style="font-size: 18px;"> pointer instead of the next pointer.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong><span style="font-size: 18px;"><br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700192/Web/Other/blobid0_1722066129.png" width="297" height="297"></span><strong style="font-size: 18px;">
+Output:</strong><span style="font-size: 18px;"> 5-&gt; 7-&gt; 8-&gt; 10 -&gt; 19-&gt; 20-&gt; 22-&gt; 28-&gt; 30-&gt; 35-&gt; 40-&gt; 45-&gt; 50.
+</span><strong style="font-size: 18px;">Explanation</strong><span style="font-size: 18px;">: <br>Bottom pointer of 5 is pointing to 7.<br></span></span><span style="font-size: 18px;"><span style="font-size: 18px;">Bottom pointer of 7 is pointing to 8.<br></span><span style="font-size: 18px;">Bottom pointer of 8 is pointing to 10 and so on.</span></span>
 </pre>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input:</strong>
-5 -&gt; 10 -&gt; 19 -&gt; 28
-|          |                
-7          22   
-|          |                 
-8          50 
-|                           
-30              
-<strong>Output:</strong> 5-&gt;7-&gt;8-&gt;10-&gt;19-&gt;22-&gt;28-&gt;30-&gt;50
-<strong>Explanation:</strong>
-The resultant linked lists has every
-node in a single level.
-
-(<strong>Note: </strong>| represents the bottom pointer.)</span></pre>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px;"><strong>Your Task:</strong><br>You do not need to read input or print anything. Complete the function <strong>flatten()</strong></span><span style="font-size: 18px;"> that takes the&nbsp;<strong>head </strong>of the linked list as input&nbsp;parameter<strong> </strong>and returns the head of flattened link list.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong>&nbsp;O(N*M)<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1)</span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">0 &lt;= N &lt;= 50<br>1 &lt;=<strong> M<sub>i</sub> </strong>&lt;= 20<br>1 &lt;= Element of linked list &lt;= 10<sup>3</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Paytm</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>24*7 Innovation Labs</code>&nbsp;<code>Payu</code>&nbsp;<code>Visa</code>&nbsp;<code>Goldman Sachs</code>&nbsp;<code>Qualcomm</code>&nbsp;<code>Drishti-Soft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong><span style="font-size: 18px;"><br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700192/Web/Other/blobid1_1722066171.png" width="287" height="287"> <br></span><strong style="font-size: 18px;">Output:</strong><span style="font-size: 18px;"> 5-&gt; 7-&gt; 8-&gt; 10-&gt; 19-&gt; 22-&gt; 28-&gt; 30-&gt; 50
+</span><strong style="font-size: 18px;">Explanation:<br></strong><span style="font-size: 18px;">Bottom pointer of 5 is pointing to 7.<br>Bottom pointer of 7 is pointing to 8.<br>Bottom pointer of 8 is pointing to 10 and so on.</span><strong style="font-size: 18px;"><br></strong></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">0 &lt;= n &lt;= 100<br>1 &lt;=<strong> </strong>number of nodes in sub-linked list(m<sub>i</sub>) &lt;= 50<br>1</span><span style="font-size: 18px;"> &lt;= node-&gt;data &lt;= 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Paytm</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>24*7 Innovation Labs</code>&nbsp;<code>Payu</code>&nbsp;<code>Visa</code>&nbsp;<code>Goldman Sachs</code>&nbsp;<code>Qualcomm</code>&nbsp;<code>Drishti-Soft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
