@@ -73,25 +73,6 @@ function main() {
 
 // } Driver Code Ends
 
-
-// User function Template for javascript
-
-/*
-class Node {
-    constructor(x) {
-        this.data = x;
-        this.right = null;
-        this.down = null;
-    }
-}
-*/
-/**
- * @param {number[][]} mat - The 2D input matrix.
- * @returns {Node|null} - The head node of the linked matrix, or null if the matrix is
- *     empty.
- */
-// User function Template for javascript
-
 /*
 class Node {
     constructor(x) {
@@ -107,6 +88,7 @@ class Node {
  * @returns {Node|null} - The head node of the linked matrix, or null if the matrix is
  *     empty.
  */
+ 
 class Solution {
     constructLinkedMatrix(mat) {
         // If the matrix is empty, return null as there is no linked matrix to construct
