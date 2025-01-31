@@ -17,8 +17,8 @@ This repository contains solutions to various problems from GeeksforGeeks (GFG).
 
 All problems in this repository are sourced from GeeksforGeeks. You can explore the problems [here](https://www.geeksforgeeks.org/explore?page=1&sortBy=difficulty).
 
-The upload of solutions to this repository was automated using a Chrome extension called [GFG to GitHub](https://chromewebstore.google.com/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk). This extension streamlines the process of saving solutions to GitHub.  
-> The extension used for automation is available at [GfG-To-GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub).
+The upload of solutions to this repository was automated using a Chrome extension called [GFG to GitHub](https://chromewebstore.google.com/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk). This extension streamlines the process of saving solutions to GitHub.
+> The Open Source Repository used for automation is available at [GfG-To-GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub).
 
 ---
 
