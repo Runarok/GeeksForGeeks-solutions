@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/longest-subsequence-such-that-difference-between-adjacents-is-one4724/1?page=1&company=Flipkart,Adobe&difficulty=Medium&status=unsolved&sortBy=accuracy">Longest subsequence-1</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer array <strong>arr[]</strong>, find the length of the longest subsequence such that the absolute difference between adjacent elements is 1.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [10, 9, 4, 5, 4, 8, 6]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The three possible subsequences of length 3 are {10, 9, 8}, {4, 5, 4}, and {4, 5, 6}, where adjacent elements have a absolute difference of 1. No valid subsequence of greater length could be formed.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [1, 2, 3, 4, 5]
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> All the elements can be included in the valid subsequence.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10</span><sup><span style="font-size: 14.999999046325684px;">3</span></sup><br><span style="font-size: 18px;">1 ≤ arr[i] ≤ 10</span><sup><span style="font-size: 14.999999046325684px;">3</span></sup></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Algorithms</code>&nbsp;
