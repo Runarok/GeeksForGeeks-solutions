@@ -59,6 +59,7 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 
 ### Milestones
 
+- **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=submissions)" tagged problems.
 > **30 JAN to 1 FEB 2024**: Completed the remaining problems from Tags that were left half-finished till date, as I was totally free these whole days.
 - **30 JAN 2024**: Completed all "[Hard](https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy)" tagged problems.  
 - **31 JAN 2024**: Completed all "[Linked List](https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=accuracy)" tagged problems.  
