@@ -1,0 +1,20 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1?page=3&difficulty=Medium&status=unsolved,attempted&sprint=a663236c31453b969852f9ea22507634&sortBy=accuracy">Vertical Tree Traversal</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a Binary Tree, find the vertical traversal of it starting from the leftmost level to the rightmost level.<br>If there are multiple nodes passing through a vertical line, then they should be printed as they appear in <strong>level order</strong> traversal of the tree.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input: </strong><span style="font-size: 18px;">root</span><strong style="font-size: 18px;"> </strong><span style="font-size: 18px;">= [1, 2, 3, 4, 5, 6, 7, N, N, N, N, N, 8, N, 9]<br>
+ <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241009173605620782/Vertical-Taversal-.webp" alt="Vertical-Taversal-" width="267" height="237">          
+</span></span><span style="font-size: 18px;"><strong>Output: </strong>[4, 2, 1, 5, 6, 3, 8, 7, 9] 
+<strong>Explanation: </strong>from left to right the vertical order will be [4, 2, 1, 5, 6, 3, 8, 7, 9] <br></span>
+</pre>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input: </strong><span style="font-size: 18px;">root = </span><span style="font-size: 18px;">[1, 2, 3, 4, 5, N, 6]<br></span><strong style="font-size: 18px;">
+&nbsp;      </strong><span style="font-size: 18px;">1
+ &nbsp; &nbsp;/&nbsp;&nbsp;&nbsp; \
+ &nbsp; 2&nbsp; &nbsp; &nbsp;  3
+ /&nbsp;&nbsp;  \&nbsp; &nbsp; &nbsp;&nbsp;\
+4&nbsp; &nbsp;  &nbsp;5&nbsp; &nbsp;  &nbsp;6
+</span><strong style="font-size: 18px;">Output: </strong><span style="font-size: 18px;">[4, 2, 1, 5, 3, 6]<br></span></span><strong style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation: </strong><span style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">from left to right the vertical order will be </span><span style="font-size: 14pt;">[4, 2, 1, 5, 3, 6]</span></pre>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong><span style="font-size: 18px;">&nbsp;root = [7, 2, 3, 4, 5,&nbsp;</span><span style="font-size: 18px;">N</span><span style="font-size: 18px;">, 6]</span><br>     7
+ &nbsp; &nbsp;/&nbsp;&nbsp;&nbsp; \
+ &nbsp; 2&nbsp; &nbsp; &nbsp;  3
+ /&nbsp;&nbsp;  \&nbsp; &nbsp; &nbsp;&nbsp;\
+4&nbsp; &nbsp;  &nbsp;5&nbsp; &nbsp;  &nbsp;6<br><strong>Output: </strong>[4, 2, 7, 5, 3, 6]<br></span><strong style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation: </strong><span style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">from left to right the vertical order will be </span><span style="font-size: 14pt;">[4, 2, 7, 5, 3, 6]</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= number of nodes &lt;= 10<sup>4<br></sup></span><span style="font-size: 18px;">1 &lt;= node-&gt;data &lt;= 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Walmart</code>&nbsp;<code>BrowserStack</code>&nbsp;<code>Dell</code>&nbsp;<code>Grofers</code>&nbsp;<code>Netskope</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;<code>Data Structures</code>&nbsp;
