@@ -1,84 +1,55 @@
 //{ Driver Code Starts
-//Initial Template for javascript
+// Driver code
+const readline = require('readline');
+const rl = readline.createInterface({input : process.stdin, output : process.stdout});
 
-'use strict';
-
-process.stdin.resume();
-process.stdin.setEncoding('utf-8');
-
-let inputString = '';
+let inputLines = [];
 let currentLine = 0;
 
-process.stdin.on('data', inputStdin => {
-    inputString += inputStdin;
-});
+rl.on('line', (line) => { inputLines.push(line.trim()); });
 
-process.stdin.on('end', _ => {
-    inputString = inputString.trim().split('\n').map(string => {
-        return string.trim();
-    });
-    
-    main();    
-});
+rl.on('close', () => { main(); });
 
-function readLine() {
-    return inputString[currentLine++];
-}
-
+function readLine() { return inputLines[currentLine++]; }
 
 function main() {
-    let t = parseInt(readLine());
-    let i = 0;
-    for(;i<t;i++)
-    {
-        let n = parseInt(readLine());
-        let arr=readLine().trim().split(" ").map((x) => parseInt(x));
-        let obj = new Solution();
-        let res = obj.findMaxSum(arr,n);
-        console.log(res);
-    
-console.log("~");
+    let tc = parseInt(readLine());
+    while (tc > 0) {
+        let arr = readLine().split(' ').map(Number);
+        let ob = new Solution();
+        let ans = ob.findMaxSum(arr);
+        console.log(ans);
+        console.log("~");
+        tc--;
+    }
 }
-}
-
 // } Driver Code Ends
 
-// User function Template for JavaScript
+
+// User function Template for javascript
 
 /**
- * @param {number[]} arr - Input array of integers
- * @param {number} n - Length of the array
- * @returns {number} - Maximum sum of a contiguous subarray
+ * @param {number[]} arr
+ * @param {number} n
+ * @return {number}
  */
 
 class Solution {
-    // Function to find the sum of the contiguous subarray with the maximum sum.
-    findMaxSum(arr, n) {
-        // If there is only one element, return it as the max sum
-        if (n == 1)
-            return arr[0];
-        
-        // If there are two elements, return the larger of the two
-        if (n == 2)
-            return arr[0] > arr[1] ? arr[0] : arr[1];
-        
-        // Array to store the possible maximum sums at each index
-        var maxSums = [0, arr[0], arr[1]];
-        
-        // Iterate through the array starting from index 2
-        for (var i = 2; i < n; i++) {
-            // Compute two possible sums:
-            // 1. Including the previous element in the sum
-            var sumWithPrev = arr[i] + maxSums[i - 1];
+    findMaxSum(arr) {
+        let prev2 = 0;  // Maximum sum excluding current element at i-2
+        let prev1 = arr[0];  // Maximum sum including the first element
 
-            // 2. Skipping one element and adding the one before that
-            var sumSkippingOne = arr[i] + maxSums[i - 2];
+        // Loop through the rest of the array, starting from index 1
+        for (let i = 1; i < arr.length; i++) {
+            // Choose the maximum of excluding or including the current element
+            const t = Math.max(prev1, prev2 + arr[i]);
 
-            // Store the maximum of the two computed sums
-            maxSums.push(sumWithPrev > sumSkippingOne ? sumWithPrev : sumSkippingOne);
+            // Update prev2 and prev1 for the next iteration
+            prev2 = prev1;
+            prev1 = t;
         }
-        
-        // Return the larger of the last two computed sums
-        return maxSums[n] > maxSums[n - 1] ? maxSums[n] : maxSums[n - 1];
+
+        // The final value of prev1 holds the maximum sum
+        return prev1;
     }
 }
