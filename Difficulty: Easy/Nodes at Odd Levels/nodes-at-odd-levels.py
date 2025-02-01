@@ -21,16 +21,6 @@ class Solution:
         
         ans.sort()  # Sort the result list
         return ans  # Return the sorted list of nodes at odd levels
-
-    # findNext function: This is where you need to implement your logic
-    def findNext(self, n):
-        # Example logic: Let's say we want to find the next greater element of n
-        # In this example, we simply return n + 1, but you can adjust this logic
-        # based on the specific problem requirements.
-        
-        # Returning the next number (just an example logic)
-        return n + 1
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
