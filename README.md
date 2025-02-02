@@ -59,14 +59,22 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 
 ### Milestones
 
+### Milestones
+
 - **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy)" tagged problems.
-> **30 JAN to 3 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was totally free these whole days.
+- **30 JAN to 10 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.
 - **30 JAN 2024**: Completed all "[Hard](https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy)" tagged problems.
 - **31 JAN 2024**: Completed all "[Linked List](https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=accuracy)" tagged problems.
 - **1 FEB 2024**: Completed "[SDE Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=a663236c31453b969852f9ea22507634&sortBy=accuracy&sprint_name=SDE%20Sheet)" and "[Beginner's DSA Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=ca8ae412173dbd8346c26a0295d098fd&sortBy=accuracy&sprint_name=Beginner%27s%20DSA%20Sheet)".
 - **2 FEB 2024**: Completed all "[Adobe](https://www.geeksforgeeks.org/explore?page=1&company=Adobe&sortBy=accuracy)" tagged problems.
 - **3 FEB 2024**: Completed all "[Flipkart](https://www.geeksforgeeks.org/explore?page=1&company=Flipkart&sortBy=accuracy)" tagged problems.
-
+- **4 FEB 2024**: Completed all "[Samsung](https://www.geeksforgeeks.org/explore?page=1&company=Samsung&difficulty=Easy&sortBy=accuracy)" tagged problems.
+- **5 FEB 2024**: Completed all "[Tree](https://www.geeksforgeeks.org/explore?page=1&category=Tree&sortBy=accuracy)" tagged problems.
+- **6 FEB 2024**: Completed all "[Matrix](https://www.geeksforgeeks.org/explore?page=1&category=Matrix&sortBy=accuracy)" tagged problems.
+- **7 FEB 2024**: Completed all "[Two-pointer Algorithm](https://www.geeksforgeeks.org/explore?page=1&category=two-pointer-algorithm&sortBy=accuracy)" tagged problems.
+- **8 FEB 2024**: Completed all "[Stack](https://www.geeksforgeeks.org/explore?page=1&category=Stack&sortBy=accuracy)" tagged problems.
+- **9 FEB 2024**: Completed all "[Binary Search](https://www.geeksforgeeks.org/explore?page=1&category=Binary%20Search&sortBy=accuracy)" tagged problems.
+- **10 FEB 2024**: Completed all "[Graph](https://www.geeksforgeeks.org/explore?page=1&category=Graph&sortBy=accuracy)" tagged problems.
 
 ### Motivation
 I’m not doing this to create a portfolio or for external validation. I simply enjoy the satisfaction of completing something, similar to achieving 100% in a game. I also love coding and the learning process. My goal is to work through all the problems on GeeksforGeeks, improving my skills as I go. I focus on enjoying the journey and learning at my own pace rather than stressing myself out.
