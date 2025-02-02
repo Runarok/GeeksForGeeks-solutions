@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/faulty-keyboard2842/1?page=2&company=Samsung&difficulty=Easy,Medium&status=unsolved&sortBy=accuracy">Faulty Keyboard</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Geek has a unique keyboard containing only the numpad keys. ie - 1,2,3,4,5,6,7,8,9,0. But the keyboard is damaged and can only process M keys. Geek is supposed to use the keyboard to type as many natural numbers as possible starting from 1. What will be the greatest natural number he will type? &nbsp;</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>m = 5
+<strong>Output:</strong> 5
+<strong>Explaination: </strong>Geek types numbers 1 to 5, using 1 key each (5 keys in total). The greatest number is 5.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>m = 15
+<strong>Output:</strong> 12
+<strong>Explaination: </strong>Geek types numbers 1 to 9 (9 keys) and 10 to 12 (6 keys, 2 keys each). The greatest number is 12<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">.</span></span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ m ≤ 10<sup>9</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Samsung</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Algorithms</code>&nbsp;
