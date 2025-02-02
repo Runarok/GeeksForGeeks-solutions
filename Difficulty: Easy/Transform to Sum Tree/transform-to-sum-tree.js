@@ -142,28 +142,24 @@ class Node
  * @param {Node} root
  */
 class Solution {
-    // Helper function to recursively compute the sum of left and right subtrees
-    helper(node) {
-        // If node is null, return 0
-        if (!node) return 0;
-        
-        // Recursively compute the sum of left and right subtrees
-        let leftSum = this.helper(node.left);
-        let rightSum = this.helper(node.right);
-        
-        // Calculate the sum of current node and its children
-        let sum = leftSum + rightSum + node.data;
-
-        // Update the current node's data to the sum of its left and right subtrees
-        node.data = leftSum + rightSum;
-
-        // Return the sum of current node's data
-        return sum;
-    }
-
-    // Function to convert the binary tree into a sum tree
+  	// Function to convert the binary tree into a sum tree
     toSumTree(root) {
-        // Call the helper function to update the tree
-        this.helper(root);
+        // If the root is null, return 0
+        if (root === null) {
+            return 0;
+        }
+
+        // Recursively calculate the sum of the left and right subtrees
+        const leftSum = this.toSumTree(root.left);
+        const rightSum = this.toSumTree(root.right);
+
+        // Store the current node's original value
+        const oldValue = root.data;
+
+        // Update the current node's value to be the sum of the left and right subtrees
+        root.data = leftSum + rightSum;
+
+        // Return the sum of the original node's value and its updated subtree sums
+        return oldValue + root.data;
     }
 }
