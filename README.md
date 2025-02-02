@@ -63,7 +63,7 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 
 - **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy)" tagged problems.
 > **30 JAN to 10 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.
-- **30 JAN 2024**: Completed all "[Hard](https://www.geeksforgeeks.org/explore?page=1&sortBy=accuracy)" tagged problems.
+- **30 JAN 2024**: Completed all "[Hard](https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy)" tagged problems.
 - **31 JAN 2024**: Completed all "[Linked List](https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=accuracy)" tagged problems.
 - **1 FEB 2024**: Completed "[SDE Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=a663236c31453b969852f9ea22507634&sortBy=accuracy&sprint_name=SDE%20Sheet)" and "[Beginner's DSA Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=ca8ae412173dbd8346c26a0295d098fd&sortBy=accuracy&sprint_name=Beginner%27s%20DSA%20Sheet)".
 - **2 FEB 2024**: Completed all "[Adobe](https://www.geeksforgeeks.org/explore?page=1&company=Adobe&sortBy=accuracy)" tagged problems.
