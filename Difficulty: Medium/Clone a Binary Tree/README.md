@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/clone-a-binary-tree/1?page=1&category=Tree&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Clone a Binary Tree</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">A special binary tree with random pointers along with the usual left and right pointers is given. Clone the given tree.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong>&nbsp;The output is <strong>1</strong> if the tree is cloned successfully. Otherwise, the output is <strong>0</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:
+</strong></span><img src="https://media.geeksforgeeks.org/wp-content/uploads/20241029105236980132/clone-a-binary-tree-with-random-pointers.webp" alt="clone-a-binary-tree-with-random-pointers" width="298" height="265">
+<span style="font-size: 18px;"><strong>Output: </strong>1
+<strong>Explanation: </strong>The tree was cloned successfully.</span></pre>
+<p><span style="font-size: 18px;"><br></span><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ number of nodes ≤ 10<sup>5</sup><br>1 ≤ node-&gt;data ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Synopsys</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;<code>Data Structures</code>&nbsp;
