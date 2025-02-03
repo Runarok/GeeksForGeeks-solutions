@@ -1,6 +1,6 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/get-min-at-pop/1?page=1&category=Stack&difficulty=Easy,Medium,Hard&status=unsolved,attempted&sortBy=accuracy">Get min at pop</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an integer array <strong>A[]</strong>. You need to first push the elements of the array into a stack and then print minimum in the stack at each pop until stack becomes empty.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/get-min-at-pop--124347/1?page=1&category=Stack&difficulty=Easy,Medium,Hard&status=unsolved,attempted&sortBy=accuracy">Get min at pop</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an integer array <strong>arr[]</strong>. You need to first push the elements of the array into a stack and then print minimum in the stack at each pop until stack becomes empty.</span></p>
 <p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input</strong>: A[] = [1 2 3 4 5]
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = [1 2 3 4 5]
 <strong>Output</strong>: 1 1 1 1 1
 <strong>Explanation</strong>: 
 After pushing elements to the stack, 
@@ -12,7 +12,7 @@ popping&nbsp;3: min in the stack is&nbsp;1. popped 3
 popping 2: min in the stack is 1. popped 2
 popping 1: min in the stack is 1. popped 1
 </span></pre>
-<pre><span style="font-size: 18px;"><strong>Input</strong>: A[] = [1 6 43 1 2 0 5]
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = [1 6 43 1 2 0 5]
 <strong>Output</strong>: 0 0 1 1 1 1 1
 <strong>Explanation</strong>: 
 After pushing the elements to the stack, 
@@ -26,4 +26,4 @@ popping 43: min in the stack is 1. popped 43
 popping 6: min in the stack is 1. popped 6
 popping 1: min in the stack is 1. popped 1.</span>
 </pre>
-<p><strong><span style="font-size: 18px;">Constraints:</span></strong><br><span style="font-size: 18px;">0 &lt;= A<sub>i</sub> &lt;= 10<sup>7</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Stack</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
+<p><strong><span style="font-size: 18px;">Constraints:</span></strong><br><span style="font-size: 18px;">0 &lt;= arr<sub>i</sub> &lt;= 10<sup>7</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Stack</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
