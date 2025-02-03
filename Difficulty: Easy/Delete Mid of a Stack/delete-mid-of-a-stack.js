@@ -1,28 +1,25 @@
 //{ Driver Code Starts
-// Initial Template for javascript
-// Position this line where user code will be pasted.
 
 // Driver code
-const readline = require("readline");
-const rl = readline.createInterface({
-    input : process.stdin,
-    output : process.stdout,
-});
+const readline = require('readline');
+const rl = readline.createInterface({input : process.stdin, output : process.stdout});
 
 let input = [];
-rl.on("line", (line) => { input.push(line); }).on("close", () => {
-    const t = parseInt(input[0]);
-    let index = 1;
-    for (let i = 0; i < t; i++) {
-        const stack = input[index++].trim().split(" ").map(Number);
-        const ob = new Solution();
-        ob.deleteMid(stack);
-        console.log(stack.reverse().join(" "));
-        console.log("~");
+rl.on('line', function(line) { input.push(line.trim()); });
+
+rl.on('close', function() {
+    const t = parseInt(input[0]); // First line is the number of test cases
+    const solution = new Solution();
+
+    for (let i = 1; i <= t; i++) {
+        const stack = input[i].split(" ").map(Number);
+        solution.deleteMid(stack);
+        console.log(stack.reverse().join(" ")); // Output the modified stack
+        console.log("~");                       // Output the modified stack
     }
 });
-
 // } Driver Code Ends
+
 
 class Solution {
 
@@ -46,3 +43,4 @@ class Solution {
         }
     }
 }
+
