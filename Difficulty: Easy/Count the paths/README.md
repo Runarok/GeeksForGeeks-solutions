@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/count-the-paths4332/1?page=2&category=Matrix,Graph&difficulty=Easy&status=unsolved&sortBy=accuracy">Count the paths</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a Directed acyclic graph(DAG) with V nodes labeled from 0 to V-1. Given edges, start, and destination, count the number of ways to reach from start to destination. </span><span style="font-size: 18px;">There is a directed Edge from vertex edges[i][0] to the vertex edges[i][1]. Your task is to find the </span><span style="font-size: 18px;">number of ways to reach from start to destination.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>edges = [[0,1],[0,3],[2,0],[2,1],[1,3]], V = 4, start = 2, destination = 3<br><strong>Output: </strong>3
+<strong>Explanation: </strong>There are three ways to reach at 3 from 2. These are : 2-&gt;1-&gt;3 , 2-&gt;0-&gt;3 and 2-&gt;0-&gt;1-&gt;3.<br></span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>edges = [[0,1]], V = 2, start = 0, destination = 1
+<strong>Output: </strong>1
+<strong>Explanation: </strong>There is only one way to reach at 1 from 0 that is : 0-&gt;1.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= V &lt;= 15<br>0 &lt;= start, destination, edges[i][0], edges[i][1] &lt;= V-1</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>DFS</code>&nbsp;<code>Graph</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
