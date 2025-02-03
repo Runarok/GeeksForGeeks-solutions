@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/save-gotham1222/1?page=1&category=Stack&difficulty=Medium,Hard&status=unsolved,attempted&sortBy=accuracy">Greater tower sum</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">There are some towers in stright line. You are given an array <strong>arr </strong>denoting the height of each tower. For tower <strong>p</strong>, the greater tower is the closest tower (towards the right), greater than the height of tower <strong>p</strong>. Return the sum of the heights of all tower's greater towers.<br><strong>Note: </strong>Return the answer by taking modulo 1e9+7.&nbsp;&nbsp;If for a tower&nbsp;<strong>k</strong>, no such tower exists then take its height as 0<br></span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> arr[] = [112, 133, 161, 311, 122, 512, 1212, 0, 19212]
+<strong>Output :</strong> 41265
+<strong>Explanation: </strong>nextgreater(112) : 133 nextgreater(133) : 161 nextgreater(161) : 311 nextgreater(311) : 512 nextgreater(122) : 512 nextgreater(512) : 1212 nextgreater(1212) : 19212 nextgreater(0) : 19212 nextgreater(19212) : 0
+add = 133+161+311+512+512+1212+19212+19212+0 = 41265.<br></span></pre>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> arr[] = [5, 9, 7, 6] <strong>
+Output :</strong> 9<br><strong>Explanation: </strong>nextgreater(5) : 9 </span><span style="font-size: 14pt;">nextgreater(9) : 0 nextgreater(7) : 0 nextgreater(6) : 0</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n).<br><strong>Expected Auxiliary Space:</strong> O(n).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>0 ≤ arr[i] ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Stack</code>&nbsp;<code>Data Structures</code>&nbsp;
