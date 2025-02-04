@@ -57,9 +57,7 @@ In this example:
 
 Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. Updates will be made as needed, but not on a fixed schedule.
 
-### Milestones
-
-### Milestones
+### Milestones / Completed Tasks Log
 
 - **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy)" tagged problems.
 > **30 JAN to 10 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.
@@ -75,6 +73,13 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 - **8 FEB 2024**: Completed all "[Stack](https://www.geeksforgeeks.org/explore?page=1&category=Stack&sortBy=accuracy)" tagged problems.
 - **9 FEB 2024**: Completed all "[Binary Search](https://www.geeksforgeeks.org/explore?page=1&category=Binary%20Search&sortBy=accuracy)" tagged problems.
 - **10 FEB 2024**: Completed all "[Matrix](https://www.geeksforgeeks.org/explore?page=1&category=Matrix&sortBy=accuracy)" tagged problems.
+- **11 FEB 2024**: Completed all "[CPP](https://www.geeksforgeeks.org/explore?page=2&category=CPP&sortBy=accuracy)" tagged problems.
+- **12 FEB 2024**: Completed all "[Sorting](https://www.geeksforgeeks.org/explore?page=1&category=Sorting&sortBy=accuracy)" tagged problems.
+- **13 FEB 2024**: Completed all "[Bit Magic](https://www.geeksforgeeks.org/explore?page=1&category=Bit%20Magic&sortBy=accuracy)" tagged problems.
+- **14 FEB 2024**: Completed all "[STL](https://www.geeksforgeeks.org/explore?page=1&category=STL&sortBy=accuracy)" tagged problems.
+- **15 FEB 2024**: Completed all "[Dynamic Programming](https://www.geeksforgeeks.org/explore?page=1&category=Dynamic%20Programming&sortBy=accuracy)" tagged problems.
+
+
 
 ### Motivation
 I’m not doing this to create a portfolio or for external validation. I simply enjoy the satisfaction of completing something, similar to achieving 100% in a game. I also love coding and the learning process. My goal is to work through all the problems on GeeksforGeeks, improving my skills as I go. I focus on enjoying the journey and learning at my own pace rather than stressing myself out.
