@@ -61,7 +61,7 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 
 - **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy)" tagged problems.
 > **30 JAN to 10 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.
-- **30 JAN 2024**: Completed all "[Hard](https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy)" tagged problems.
+- **30 JAN 2024**: Completed all "[Hard Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy)" tagged problems.
 - **31 JAN 2024**: Completed all "[Linked List](https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=accuracy)" tagged problems.
 - **1 FEB 2024**: Completed "[SDE Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=a663236c31453b969852f9ea22507634&sortBy=accuracy&sprint_name=SDE%20Sheet)" and "[Beginner's DSA Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=ca8ae412173dbd8346c26a0295d098fd&sortBy=accuracy&sprint_name=Beginner%27s%20DSA%20Sheet)".
 - **2 FEB 2024**: Completed all "[Adobe](https://www.geeksforgeeks.org/explore?page=1&company=Adobe&sortBy=accuracy)" tagged problems.
@@ -69,7 +69,10 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 - **4 FEB 2024**: Completed all "[Samsung](https://www.geeksforgeeks.org/explore?page=1&company=Samsung&sortBy=accuracy)" and "[Tree](https://www.geeksforgeeks.org/explore?page=1&category=Tree&sortBy=accuracy)" tagged problems.
 - **5 FEB 2024**: Completed all "[Graph](https://www.geeksforgeeks.org/explore?page=1&category=Graph&sortBy=accuracy)" and "[Two-pointer Algorithm](https://www.geeksforgeeks.org/explore?page=1&category=two-pointer-algorithm&sortBy=accuracy)" tagged problems.
 - **6 FEB 2024**: Completed all "[Stack](https://www.geeksforgeeks.org/explore?page=1&category=Stack&sortBy=accuracy)" and "[Binary Search](https://www.geeksforgeeks.org/explore?page=1&category=Binary%20Search&sortBy=accuracy)" tagged problems.
-- **7 FEB 2024**: Completed all "[Matrix](https://www.geeksforgeeks.org/explore?page=1&category=Matrix&sortBy=accuracy)" and "[CPP](https://www.geeksforgeeks.org/explore?page=2&category=CPP&sortBy=accuracy)" tagged problems.
+- **7 FEB 2024**: Completed all "[Matrix](https://www.geeksforgeeks.org/explore?page=1&category=Matrix&sortBy=accuracy)" tagged problems.
+- **8 FEB 2024**: Completed "[Love Babbar Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=94ade6723438d94ecf0c00c3937dad55&sortBy=accuracy&sprint_name=Love%20Babbar%20Sheet)".
+- **9 FEB 2024**: Completed all "[Medium Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Medium&sortBy=accuracy)" tagged problems.
+
 <!--
 - **8 FEB 2024**: Completed all "[Sorting](https://www.geeksforgeeks.org/explore?page=1&category=Sorting&sortBy=accuracy)" and "[Bit Magic](https://www.geeksforgeeks.org/explore?page=1&category=Bit%20Magic&sortBy=accuracy)" tagged problems.
 - **9 FEB 2024**: Completed all "[STL](https://www.geeksforgeeks.org/explore?page=1&category=STL&sortBy=accuracy)" and "[Dynamic Programming](https://www.geeksforgeeks.org/explore?page=1&category=Dynamic%20Programming&sortBy=accuracy)" tagged problems.
