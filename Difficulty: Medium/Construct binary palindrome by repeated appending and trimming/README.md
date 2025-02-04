@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/construct-binary-palindrome-by-repeated-appending-and-trimming1005/1?page=1&category=Graph&difficulty=Easy,Medium,Hard&status=unsolved,attempted&sortBy=accuracy">Construct binary palindrome by repeated appending and trimming</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given two integers <strong>n</strong> and <strong>k</strong>. Your task is to create a palindrome of length <strong>n</strong> using binary numbers (0s and 1s) of length <strong>k </strong>that starts with 1. You can repeat the binary number as many times as you need, and you are allowed to remove any zeros from the end of the final palindrome.</span></p>
+<p><span style="font-size: 14pt;">The palindrome must always start with <strong>1</strong> and should have as many zeros as possible. If it is not possible to create such a palindrome of length <strong>n</strong> using any binary number of length <strong>k</strong>, return <strong>-1</strong>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> n = 5, k = 3
+<strong>Output:</strong> 11011
+<strong>Explanation:</strong> Since only length of 3 binary digits are allowed, so the possible binary representations are 100, 110, 111, 101. Out of these, If we take the binary representation of 6(110), combine it twice &amp; trim a zero the final output will be 11011, which satisfy all the conditions</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 6, k = 1
+<strong>Output: </strong>111111
+<strong>Explanation:</strong> <br>The binary representation of 1 is 1 of length 1, it is combined six times to produce 111111.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong>&nbsp;O(n).<br><strong>Expected Auxiliary Space:</strong> O(1).</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ n, k ≤ 10<sup>6</sup><br></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>DFS</code>&nbsp;<code>Graph</code>&nbsp;<code>palindrome</code>&nbsp;<code>Binary Representation</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
