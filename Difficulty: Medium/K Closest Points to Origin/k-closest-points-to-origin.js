@@ -1,3 +1,5 @@
+//-------------------------------- TLE = 1110/1112 --------------------------------
+
 // User function Template for JavaScript
 class Solution {
     kClosest(points, k) {
