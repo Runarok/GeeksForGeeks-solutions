@@ -71,7 +71,7 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 - **6 FEB 2024**: Completed all "[Stack](https://www.geeksforgeeks.org/explore?page=1&category=Stack&sortBy=accuracy)" and "[Binary Search](https://www.geeksforgeeks.org/explore?page=1&category=Binary%20Search&sortBy=accuracy)" tagged problems.
 - **7 FEB 2024**: Completed all "[Matrix](https://www.geeksforgeeks.org/explore?page=1&category=Matrix&sortBy=accuracy)" tagged problems.
 - **8 FEB 2024**: Completed "[Love Babbar Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=94ade6723438d94ecf0c00c3937dad55&sortBy=accuracy&sprint_name=Love%20Babbar%20Sheet)".
-- **9 FEB 2024**: Completed all "[Medium Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Medium&sortBy=accuracy)" tagged problems.
+- **9 FEB 2024**: Completed all "[Accolite](https://www.geeksforgeeks.org/explore?page=1&company=Accolite&sortBy=accuracy)" tagged problems.
 
 <!--
 - **8 FEB 2024**: Completed all "[Sorting](https://www.geeksforgeeks.org/explore?page=1&category=Sorting&sortBy=accuracy)" and "[Bit Magic](https://www.geeksforgeeks.org/explore?page=1&category=Bit%20Magic&sortBy=accuracy)" tagged problems.
