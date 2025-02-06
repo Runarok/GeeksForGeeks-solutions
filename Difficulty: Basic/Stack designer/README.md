@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/stack-designer/1?page=1&category=Stack&status=unsolved&sortBy=accuracy">Stack designer</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an integer array <strong>arr[]</strong>. You need to push the elements of the array into a stack and then print them while popping.<br><strong>Note:&nbsp;</strong>No need to print extra line after printing the stack elements.<br></span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong><span style="font-size: 18px;"><strong> </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr = [1, 2, 3, 4, 5]
+<strong>Output: </strong>5 4 3 2 1<br><strong>Explanation: </strong>Elements are pushed and then popped from the top of the stack in the order 5, 4, 3, 2, 1.<br></span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> </span><span style="font-size: 18px;">arr = [1, 6, 43, 1, 2, 0, 5]</span>
+<span style="font-size: 18px;"><strong>Output:</strong> </span><span style="font-size: 18px;">5 0 2 1 43 6 1</span></pre>
+<p><strong><span style="font-size: 18px;">Constraints:</span></strong><br><span style="font-size: 18px;">1 &lt;= arr[i] &lt;= 10<sup>7</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Stack</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
