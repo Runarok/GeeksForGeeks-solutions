@@ -60,11 +60,6 @@ console.log("~");
  * @returns {number}
 */
 
-// User function template for JavaScript
-/**
- * @param {number} n - The input integer whose bits need to be processed.
- * @returns {number} - The modified integer with no three consecutive set bits.
- */
 class Solution {
     noConseBits(n) {
         // Array to store the binary representation of the number (32-bit)
