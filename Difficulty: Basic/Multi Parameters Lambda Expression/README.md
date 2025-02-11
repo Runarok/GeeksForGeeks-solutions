@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/multi-parameters-lambda-expression/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Multi Parameters Lambda Expression</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You need to use lambda expression to add two numbers <strong>a</strong> and <strong>b.</strong><br></span><span style="font-size: 18px;">You need to complete the function&nbsp;<strong>helperFunction&nbsp;</strong>that does not take any&nbsp;<strong>argument</strong>. This function expects an object of Add as a return&nbsp;<strong>type</strong>. Add is an interface that has the member function addParameters. Your&nbsp;<strong>helperFunction</strong>&nbsp;uses&nbsp;<strong>lambda expression</strong>&nbsp;to implement the&nbsp;<strong>addParameters&nbsp;</strong>within&nbsp;<strong>helperFunction&nbsp;</strong>itself. Then you&nbsp;<strong>return&nbsp;</strong>the object. The&nbsp;<strong>driver code&nbsp;</strong>will call the addParameters method and print the result using it.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong>&nbsp;&nbsp;</span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>a =<strong> </strong>5, b = 7</span>
+<span style="font-size: 18px;"><strong>Output: </strong>12</span>
+<strong><span style="font-size: 18px;">Explanation:</span> </strong><span style="font-size: 18px;">5+7 = 12</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>a =<strong> </strong>1, b = 5</span>
+<span style="font-size: 18px;"><strong>Output: </strong>6</span>
+<strong><span style="font-size: 18px;">Explanation:</span> </strong><span style="font-size: 18px;">1+5 = 6</span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 18px;">1 &lt;= a, b &lt;= 10<sup>3</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;<code>Java-Collections</code>&nbsp;
