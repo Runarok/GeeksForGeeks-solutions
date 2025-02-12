@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-four-sum-subsequence/1?page=2&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Minimum four sum subsequence</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;"><span style="font-size: 14pt; color: #000000;">You are given an array <strong>arr[]</strong> of positive integers. Your task is to find the minimum sum of a subsequence such that the subsequence includes at least one element from every group of four consecutive elements in the array.</span></span></p>
+<p style="font-size: 18px;"><strong>Examples:</strong></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [1, 2, 3, 4, 5, 6, 7, 8]
+<strong>Output:</strong> 6
+<strong>Explanation: </strong>6 is sum of output subsequence {1, 5}. Following 4 length subarrays are possible (1, 2, 3, 4), (2, 3, 4, 5), (3, 4, 5, 6), (4, 5, 6, 7), (5, 6, 7, 8)Here, Our subsequence {1, 5} has an element from all above groups of four consecutive elements.</span></pre>
+<pre><span style="font-size: 18px;"><strong><span style="font-size: 14pt;">Input</span></strong><span style="font-size: 14pt;">: arr[] = [2, 1, 3]</span></span><br><span style="font-size: 14pt;"><strong>Output</strong>:&nbsp;1 </span><br><span style="font-size: 14pt;"><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation: </strong>The size of arr is less than 4, so the subsequence is {1}.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [1, 2, 3, 3, 4, 5, 6, 1]
+<strong>Output:</strong> 4
+<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation: </strong>The subsequence is {3, 1}. Here we consider second three.
+</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1&lt;=arr.size()&lt;=10<sup>6</sup><br>1&lt;=arr[i]&lt;=10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Dynamic Programming</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
