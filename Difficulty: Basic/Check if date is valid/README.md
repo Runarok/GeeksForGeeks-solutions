@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/check-if-date-is-valid0050/1?page=30&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Check if date is valid</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a date, the task is to check if it is valid or not. It may be assumed that the given date is in range from <strong>01/01/1800 to 31/12/9999</strong> and any date not within this range will also be considered invalid. Return<strong> 1</strong> if the date is valid else return <strong>0</strong>;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input: d</strong><span style="font-size: 18px;"> = 10, </span><strong style="font-size: 18px;">m</strong><span style="font-size: 18px;"> = 12, </span><strong style="font-size: 18px;">y</strong><span style="font-size: 18px;"> = 2000
+</span><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">1</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">The given date 10/12/2000 is valid</span><span style="font-size: 18px;">.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>d = 30, m = 2, y = 1700</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">0</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">The given date 30/2/1700 is invalid.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(1)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 &lt;= d, m, y &lt;= 10000</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Algorithms</code>&nbsp;
