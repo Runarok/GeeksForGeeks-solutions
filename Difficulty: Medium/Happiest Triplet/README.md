@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/happiest-triplet2921/1?page=4&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Happiest Triplet</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given the three arrays <strong>arr1[]</strong>, <strong>arr2[]</strong>, <strong>arr3[] </strong>of the same size . Find a triplet such that (maximum-minimum) in that triplet is the minimum of all the triplets. A triplet should be selected so that it should have one number from each of the three given arrays. This triplet is the happiest among all the possible triplets. Print the triplet in decreasing order. </span></p>
+<p><span style="font-size: 18px;"><strong>Note: </strong>If there are 2 or more smallest difference triplets, then the one with the smallest sum of its elements should be displayed.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr1[] = [5, 2, 8] , arr2[] = [10, 7, 12] , arr3[] = [9, 14, 6]
+<strong>Output:</strong> [7, 6, 5]
+<strong>Explanation</strong>: The triplet { 5,7,6 }&nbsp; has difference (maximum - minimum)= (7-5) =2 which is minimum of all triplets.  </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr1[] = [15, 12, 18, 9] , arr2[] = [10, 17, 13, 8] , arr3[] = [14, 16, 11, 5]</span>
+<span style="font-size: 18px;"><strong>Output:</strong> [11, 10, 9]</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n*logn)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr1.size(),arr2.size(),arr3.size() ≤ 10<sup>5<br></sup></span><span style="font-size: 18px;">1 ≤ arr1[i],arr2[i],arr3[i] ≤ 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Searching</code>&nbsp;<code>Sorting</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
