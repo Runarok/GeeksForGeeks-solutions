@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/palindromic-strings2555/1?page=1&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Palindromic Strings</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given string <strong>s</strong> and an integer&nbsp;</span><strong style="font-size: 18px;">k</strong><span style="font-size: 18px;"> </span><span style="font-size: 18px;">, you have to transform </span><strong style="font-size: 18px;">s</strong><span style="font-size: 18px;"> into a </span><strong style="font-size: 18px;">palindrome</strong><span style="font-size: 18px;">. In order to achieve that you have to perform exactly </span><strong style="font-size: 18px;">k</strong><span style="font-size: 18px;"> insertions of characters(you cannot perform anymore or less number of insertions). The task is to check if the string can be converted to a palindrome by making exactly </span><strong style="font-size: 18px;">k</strong><span style="font-size: 18px;"> insertions.&nbsp;</span></p>
+<p><strong><span style="font-size: 18px;">Note:</span></strong><span style="font-size: 18px;"> The characters consist only of lower case latin letters.</span></p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: s = "abac", k = 2
+<strong>Output:</strong> 1</span>
+<span style="font-size: 18px;"><strong>Explanation</strong>: "abac" can be transformed to 
+"cabbac" (which is palindrome) adding 
+two characters c and b.</span></pre>
+<div><span style="font-size: 18px;"><strong>Example 2:</strong></span></div>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: s = "abcde", k = 3
+<strong>Output:</strong> 0</span>
+<span style="font-size: 18px;"><strong>Explanation</strong>: "abcde" cannot be transformed
+to palindrome using 3 insertions.</span></pre>
+<div><br><span style="font-size: 18px;"><strong>Your Task:&nbsp;&nbsp;</strong><br>You don't need to read input or print anything. Complete the function <strong><code>isPossiblePalindrome</code>()&nbsp;</strong>which takes <strong>s</strong> and <strong>k </strong>as input parameters and returns a boolean value<br><br><strong>Expected Time Complexity:</strong> O(<strong>|s|<sup>2</sup></strong>)<br><strong>Expected Auxiliary Space:</strong> O(<strong>|s|</strong>)<br><br><strong>Constraints:</strong><br>1 ≤ <strong>|s|</strong> ≤ 10<sup>3<br><strong>&nbsp;</strong></sup>0</span><span style="font-size: 18px;">≤ k</span><span style="font-size: 18px;">≤&nbsp;</span><strong style="font-size: 18px;">|s|</strong></div>
+<div><strong style="vertical-align: super; font-size: 18px;">s</strong><span style="vertical-align: super; font-size: 18px;"> contains lowercase English alphabets</span></div></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Algorithms</code>&nbsp;
