@@ -47,65 +47,63 @@ console.log("~");
 
 // } Driver Code Ends
 
-
-//User function Template for javascript
+// User function template for JavaScript
 /**
  * @param {number[]} KnightPos
  * @param {number[]} TargetPos
  * @param {number} N
  * @returns {number}
-*/
+ */
 
 class Solution {
-    // Function to find the minimum number of steps required to reach the target position by the Knight.
+    // Function to find the minimum number of steps required for the knight to reach the target position.
     minStepToReachTarget(KnightPos, TargetPos, N) {
-        // Directions a knight can move
-        let moves = [
+        // Possible moves a knight can make
+        const moves = [
             [2, 1], [2, -1], [-2, 1], [-2, -1],
             [1, 2], [1, -2], [-1, 2], [-1, -2]
         ];
 
-        // Adjust to 0-indexed for internal calculations
-        let startX = KnightPos[0] - 1;
-        let startY = KnightPos[1] - 1;
-        let targetX = TargetPos[0] - 1;
-        let targetY = TargetPos[1] - 1;
+        // Convert positions to 0-based index
+        const startX = KnightPos[0] - 1;
+        const startY = KnightPos[1] - 1;
+        const targetX = TargetPos[0] - 1;
+        const targetY = TargetPos[1] - 1;
 
-        // If the start and target positions are the same
+        // If the knight is already at the target position
         if (startX === targetX && startY === targetY) return 0;
 
-        // Create a visited 2D array to track visited positions
-        let visited = Array.from({ length: N }, () => Array(N).fill(false));
+        // Create a visited array to track visited positions
+        const visited = Array.from({ length: N }, () => Array(N).fill(false));
 
-        // Queue to perform BFS
-        let queue = [];
-        queue.push([startX, startY, 0]);  // Start position with 0 steps
+        // Queue for BFS (stores [x, y, steps])
+        const queue = [[startX, startY, 0]];
         visited[startX][startY] = true;
 
-        // BFS Loop
+        // BFS to find the shortest path
         while (queue.length > 0) {
-            let [x, y, steps] = queue.shift();
+            const [x, y, steps] = queue.shift();
 
-            // Try all 8 possible knight moves
-            for (let [dx, dy] of moves) {
-                let newX = x + dx;
-                let newY = y + dy;
+            // Explore all possible moves
+            for (const [dx, dy] of moves) {
+                const newX = x + dx;
+                const newY = y + dy;
 
                 // Check if the new position is within bounds and not visited
                 if (newX >= 0 && newX < N && newY >= 0 && newY < N && !visited[newX][newY]) {
-                    // If target is found, return the number of steps
+                    // If we reach the target position, return the number of steps
                     if (newX === targetX && newY === targetY) {
                         return steps + 1;
                     }
 
-                    // Mark as visited and add to queue
+                    // Mark the position as visited and add it to the queue
                     visited[newX][newY] = true;
                     queue.push([newX, newY, steps + 1]);
                 }
             }
         }
 
-        // If we exhaust the queue and never reach the target, return -1
+        // If target is unreachable (shouldn't happen in a valid chessboard), return -1
         return -1;
     }
 }
