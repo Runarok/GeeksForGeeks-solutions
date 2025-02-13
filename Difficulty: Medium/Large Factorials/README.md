@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/large-factorials2539/1?page=1&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Large Factorials</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a number <strong>n</strong>, the task is to calculate two values related to its factorial:<br></span><span style="font-size: 18px;">1)The first digit of the factorial of n.<br></span><span style="font-size: 18px;">2)The power of 10 that&nbsp; represents the factorial in the form d * 10^p, where d is the first digit and p is the power.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> n = 5
+<strong>Output :</strong> [1, 2]
+<strong>Explanation: </strong>Factorial of 5 = 120 .So, first digit = 1 and power of 10 = 2 (1 * 10<sup>2</sup>).
+</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> n = 9<strong>
+Output :</strong> [3, 5] <br></span><strong style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation:<span style="font-size: 14pt;"> </span></strong><span style="font-size: 14pt;">Factorial of 9 = 362880 .So, first digit = 3 and power of 10 = 5 (1 * 10<sup>5</sup><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">).</span></span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n).<br><strong>Expected Auxiliary Space:</strong> O(n).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints<br></strong></span><span style="font-size: 18px;">1 ≤ n≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>factorial</code>&nbsp;<code>Data Structures</code>&nbsp;
