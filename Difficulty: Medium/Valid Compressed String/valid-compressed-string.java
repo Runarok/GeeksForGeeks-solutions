@@ -23,43 +23,43 @@ System.out.println("~");
 // User function Template for Java
 
 class Solution {
-    // checkCompressed function to check if string T is a valid compressed form of string S
-    // S: Original string
-    // T: Compressed string
+    // Function to check if T is a valid compressed version of S
     static int checkCompressed(String S, String T) {
-        // Initialize pointers for both strings
-        int i = 0;  // Pointer for original string S
-        int j = 0;  // Pointer for compressed string T
         
-        // Iterate through both strings
+        int i = 0;  // Pointer for S
+        int j = 0;  // Pointer for T
+        
+        // Loop through both strings
         while (i < S.length() && j < T.length()) {
-            // If characters match, move both pointers
-            if (S.charAt(i) == T.charAt(j)) {
-                i++;
-                j++;
-            } 
-            // If the current character in T is a digit, handle repetition
-            else if (Character.isDigit(T.charAt(j))) {
-                int count = 0;
-                // Calculate the complete number (repetition count) from the digits
-                while (j < T.length() && Character.isDigit(T.charAt(j))) {
-                    count = count * 10 + (T.charAt(j) - '0');
-                    j++;
-                }
-                // Move the pointer in S by the repetition count
-                i += count;
-            } else {
-                // If none of the above conditions match, return 0 (invalid compressed form)
-                return 0;
-            }
+           char c = S.charAt(i);  // Current character in S
+           char ch = T.charAt(j); // Current character in T
+           
+           // If characters match, move both pointers forward
+           if (c == ch) {
+               i++;
+               j++;
+           }
+           // If character in T is a digit, handle repetition
+           else if (Character.isDigit(ch)) {
+               String temp = "";
+               
+               // Extract the full number (which may have multiple digits)
+               while (j < T.length() && Character.isDigit(T.charAt(j))) {
+                   temp += T.charAt(j);
+                   j++;
+               }
+               
+               // Add the parsed number to i (representing repetition of characters)
+               i += Integer.parseInt(temp);
+           }
+           // If none of the above conditions match, return 0 (invalid case)
+           else {
+               return 0;
+           }
         }
-
-        // If both strings are fully traversed, the compressed form is valid
-        if (i == S.length() && j == T.length()) {
-            return 1;
-        }
-
-        // If one of the strings is not fully traversed, return 0 (invalid compressed form)
-        return 0;
+        
+        // If both strings are fully processed, return 1, else return 0
+        if (i == S.length() && j == T.length()) return 1;
+        else return 0;
     }
 }
