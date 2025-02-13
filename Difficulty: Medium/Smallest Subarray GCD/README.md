@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/smallest-sub-array4107/1?page=3&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Smallest Subarray GCD</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Givenn an array <strong>arr[] </strong>and<strong> </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">an integer&nbsp;</span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">k </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">, find the length of the minimum subarray whose Greatest Common Divisor equals </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">k</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">.</span></span></p>
+<p><span style="font-size: 14pt;"><strong>Note:</strong> If no such subarray exists, return -1.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [6, 9, 7, 10, 12, 24, 36, 27], k = 3
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> GCD of subarray {6,9} is 3. GCD of subarray {24, 36, 27} is also 3,but {6, 9} is the smallest.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [9, 12, 15, 24, 36, 27], k = 2
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> GCD 2 is not possible from any subarray from the given array.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 2, 4, 8], k = 1
+<strong>Output:</strong> 1</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(n * (logn)<sup>2</sup>)<br><strong>Expected Auxiliary Space:</strong> O(n * logn)&nbsp;</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>5</sup><br>1 &lt;= arr[i] &lt;= 10<sup>5</sup><br>1 &lt;= k &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Segment-Tree</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Advanced Data Structure</code>&nbsp;
