@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/smallest-absolute-difference4320/1?page=1&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Smallest Absolute Difference</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array of size <strong>n</strong> containing positive integers n and a number <strong>k</strong>,The absolute difference between values at indices i and j is <strong>|a[i] - a[j]|</strong>. There are <strong>n*(n-1)/2</strong> such pairs and you have to&nbsp;print the <strong>k<sub>th</sub></strong> <strong>smallest</strong> <strong>absolute</strong> <strong>difference</strong> among all these pairs.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input : </strong>n = 4, a[] = {1, 2, 3, 4},  = 3<strong>
+Output : </strong>1 <strong>
+Explanation : </strong>The possible absolute differences are : {1, 2, 3, 1, 2, 1}. The 3rd smallest value among these is 1.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input : </strong>n = 2, a[] = {10, 10}, k = 1
+<strong>Output : </strong>0</span></pre>
+<p><br><span style="font-size: 18px;"><strong>Your Task:&nbsp;&nbsp;</strong><br>You don't need to read input or print anything. Your task is to complete the function <strong>kthDiff()</strong>&nbsp;which takes the array <strong>a[]</strong>, its size <strong>n </strong>and an integer <strong>k </strong>as inputs and returns the <strong>k<sub>th</sub></strong> smallest absolute difference among all these pairs.</span></p>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O( N. (Log(n))<sup>2</sup> )<br><strong>Expected Auxiliary Space:</strong> O(Log(n))</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1&lt;=n&lt;=10<sup>5</sup><br>1&lt;=a[i]&lt;=10<sup>5</sup><br>1 &lt;= k &lt;= n*(n-1)/2</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
