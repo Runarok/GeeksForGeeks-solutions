@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/mr-modulo-and-pairs5610/1?page=1&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Mr Modulo and Pairs</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Mr. Modulo comes up with another problem related to modulo and this time he has an array of integers <strong>arr[]</strong> and an integer <strong>k</strong>, he is interested in finding all the possible pairs <strong>arr[i]</strong> and <strong>arr[j]</strong> in the array <strong>arr[]</strong> such that <strong>arr[i]</strong> % <strong>arr[j]</strong> = <strong>k</strong>. The array given will have distinct elements.<br>You are required to return the number of such pairs.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [2, 3, 5, 4, 7], k = 3
+<strong>Output:</strong> 4
+<strong>Explanation</strong>: The pairs which give remainder 3 : {7, 4}, {3, 4}, {3, 5}, {3, 7}.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 2], k = 3
+<strong>Output:</strong> 0<br><strong>Explanation:</strong> No pairs give remainder 3.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> &nbsp;O(n*sqrt(max(arr[i])))&nbsp;<br><strong>Expected Auxiliary Space: </strong>O(n).</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>5<br></sup>1 ≤ arr[i] ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Modular Arithmetic</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
