@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/how-many-pizzas4832/1?page=2&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">How many pizzas ?</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given two arrays of diameter of pizzas <strong>arr1[]</strong> and <strong>arr2[]</strong>, each contains 10 pizzas of varying radii. Geek is allowed to eat once, he can eat a sequence of pizzas if they are present in both arrays in the same order. Geek is greedy, help Geek find the maximum number of pizzas he can eat.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr1 = [891, 424, 945, 741, 897, 514, 692, 221, 678, 168], arr2 = [702, 952, 221, 614, 69, 753, 821, 971, 318, 364]
+<strong>Output: </strong>1
+<strong>Explanation: </strong>There is only one common pizza {221}.
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr1 = [476, 241, 866, 571, 827, 599, 949, 948, 579, 726], arr2 = [371, 359, 610, 216, 885, 876, 92, 10, 171, 724]
+<strong>Output: </strong>0
+<strong>Explanation: </strong>There is no common pizza.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(n<sup>2</sup>)</span><br><span style="font-size: 14pt;"><strong>Expected</strong><strong> Auxiliary Space:</strong> O(n<sup>2</sup>)&nbsp;</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:<br></strong>arr1.size() = arr2.size() = 10<strong><br></strong>1 &lt;= radii &lt;= 10<sup>3</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
