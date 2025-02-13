@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximum-sum-path-in-two-arrays5314/1?page=2&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Maximum Sum Path in Two Arrays</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two arrays <strong>arr1 </strong>and <strong>arr2.</strong> First sort both the arrays. The arrays may have some common elements. Find the sum of the maximum sum path to reach from the beginning of any array to the end of any of the two arrays. You can start from any array and switch from one array to another array only at common elements.&nbsp;</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr1[] = [2, 3, 7, 10, 12] and arr2[] = [1, 5, 7, 8]
+<strong>Output: </strong>35
+<strong>Explanation:</strong> 35 is sum of 1 + 5 + <strong>7</strong> + 10 + 12. We start from the first element of arr2 which is 1, then we move to 5, then 7 From 7, we switch to arr1 (as 7 is common) and traverse 10 and 12.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr1[] = [10, 12] and arr2[] = [5, 7, 9]<br></span><span style="font-size: 18px;"><strong>Output:</strong> 22
+<strong>Explanation:</strong> 22 is the sum of 10 and 12. Since there is no common element, we need to take all elements from the array with more sum.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(nlogn)<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr1.size(),arr2.size() &lt;= 10<sup>5</sup><br>0 &lt;= arr1[i], arr2[i] &lt;= 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
