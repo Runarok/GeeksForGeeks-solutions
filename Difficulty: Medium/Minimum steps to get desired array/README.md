@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-steps-to-get-desired-array5519/1?page=2&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Minimum steps to get desired array</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Consider an array with all values zero. We can perform the following operations on the array :<br>&nbsp;<strong> 1. Incremental operations:</strong> Choose 1 element from the array and increment its value by 1.<br>&nbsp;<strong> 2. Doubling operation:</strong> Double the values of all the elements of an array.<br>Given an integer array <strong>arr[]</strong>. Return the least possible number of operations needed to change the original array containing only <strong>zeroes</strong> to arr[].</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [16, 16, 16]
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> First apply an incremental operation to each element. Then apply the doubling operation four times. Total number of operations is 3+4 = 7.
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [2, 3]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> To get the target array from [0, 0], we first increment both elements by 1 (2 operations), then double the array (1 operation). Finally increment second element (1 more operation). Total number of operations is 2+1+1 = 4.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(n*log(max(arr[i])))<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1)</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>5</sup><br>0 ≤ arr[i] ≤ 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
