@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/subarray-inversions0512/1?page=1&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Subarray Inversions</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 12pt;">Given an array <strong>arr[]</strong>, the task is to find the sum of the number of inversions in all subarrays of length <strong>k</strong>. To clarify, determine the number of inversions in each of the <strong>n-k+1 </strong>(where, n is the size of the array<strong>)</strong>&nbsp;subarrays of length k and add them together.</span></p>
+<p><span style="font-size: 12pt;">For example, if <strong>i </strong>and <strong>j </strong>are two different indices of an array <strong>arr[]</strong> such that <strong>i &lt; j</strong>&nbsp;and <strong>arr[i] &gt; arr[j]</strong>, it is an inversion.</span></p>
+<p><span style="font-size: 12pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 12pt;"><strong>Input: </strong>arr[] = [1, 6, 7, 2], k = 3<strong>
+Output:</strong> 2
+<strong>Explanation</strong>: There are two subarrays of size 3, {1, 6, 7} and {6, 7, 2}. Count of inversions in first subarray is 0 and count of inversions in second subarray is 2. So sum is 0 + 2 = 2.</span></pre>
+<pre><span style="font-size: 12pt;"><strong>Input: </strong>arr[] = [12, 3, 14, 8, 15, 1, 4, 22], k = 4
+<strong>Output:</strong> 14 </span></pre>
+<p><span style="font-size: 12pt;"><strong>Expected Time Complexity:</strong> O(n<sup>2</sup>).&nbsp;<br><strong>Expected Auxiliary Space:</strong> O(n).</span></p>
+<p><span style="font-size: 12pt;"><strong>Constraints:</strong><br>1 ≤ arr.size ≤ 10<sup>3<br></sup>1 ≤ arr[i] ≤ 10<sup>3</sup><sup><br></sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
