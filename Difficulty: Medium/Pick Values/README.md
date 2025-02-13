@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/pick-values4112/1?page=3&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Pick Values</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an array <strong>arr[]</strong> of positive integers. Select values from the array such that their sum is minimum. You must pick at least 1 value from each group of 4 consecutive elements. Returns an integer denoting the minimum sum.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 2, 3, 1, 2]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There are 2 groups of 4 in the given array. The 1st group is [1 2 3 1] and 2nd is [2 3 1 2]. Selecting the 4th element in the array will give the least sum as it belongs to both groups.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [8, 6, 9, 10, 6, 7]
+<strong>Output:</strong> 9<br><strong>Explanation:</strong> There are 3 groups of 4 consecutive elements. 9 at index 2 is the smallest element that is present in all 3 groups.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size()<strong>&nbsp;</strong>≤ 10<sup>6</sup><br>1 ≤ arr[i]<strong> </strong>≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Dynamic Programming</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
