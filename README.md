@@ -60,7 +60,7 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 ### Milestones / Completed Tasks Log
 
 - **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy)" tagged problems.
-> **30 JAN to 10 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.
+> **30 JAN to 9 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.
 - **30 JAN 2024**: Completed all "[Hard Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy)" tagged problems.
 - **31 JAN 2024**: Completed all "[Linked List](https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=accuracy)" tagged problems.
 - **1 FEB 2024**: Completed "[SDE Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=a663236c31453b969852f9ea22507634&sortBy=accuracy&sprint_name=SDE%20Sheet)" and "[Beginner's DSA Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=ca8ae412173dbd8346c26a0295d098fd&sortBy=accuracy&sprint_name=Beginner%27s%20DSA%20Sheet)".
@@ -72,11 +72,7 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 - **7 FEB 2024**: Completed all "[Matrix](https://www.geeksforgeeks.org/explore?page=1&category=Matrix&sortBy=accuracy)" tagged problems.
 - **8 FEB 2024**: Completed "[Love Babbar Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=94ade6723438d94ecf0c00c3937dad55&sortBy=accuracy&sprint_name=Love%20Babbar%20Sheet)".
 - **9 FEB 2024**: Completed all "[Accolite](https://www.geeksforgeeks.org/explore?page=1&company=Accolite&sortBy=accuracy)" tagged problems.
-
-<!--
-- **8 FEB 2024**: Completed all "[Sorting](https://www.geeksforgeeks.org/explore?page=1&category=Sorting&sortBy=accuracy)" and "[Bit Magic](https://www.geeksforgeeks.org/explore?page=1&category=Bit%20Magic&sortBy=accuracy)" tagged problems.
-- **9 FEB 2024**: Completed all "[STL](https://www.geeksforgeeks.org/explore?page=1&category=STL&sortBy=accuracy)" and "[Dynamic Programming](https://www.geeksforgeeks.org/explore?page=1&category=Dynamic%20Programming&sortBy=accuracy)" tagged problems.
-  -->
+- **13 Feb 2024**: Completed all "[Medium Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Medium&sortBy=accuracy)" tagged problems.
 
 ### Motivation
 I’m not doing this to create a portfolio or for external validation. I simply enjoy the satisfaction of completing something, similar to achieving 100% in a game. I also love coding and the learning process. My goal is to work through all the problems on GeeksforGeeks, improving my skills as I go. I focus on enjoying the journey and learning at my own pace rather than stressing myself out.
