@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/number-of-permutation-with-k-inversions5304/1?page=4&difficulty=Medium&status=unsolved,attempted&sortBy=accuracy">Number of permutation with K inversions</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two numbers <strong>n</strong> and <strong>k</strong>, the task is to count the number of permutations formed by the first <strong>n</strong> natural numbers that have exactly <strong>k</strong> inversion.<br>Note:<strong>&nbsp;</strong></span><span style="font-size: 14pt;"><span style="font-size: 18px;">An inversion is a pair of indices (i, j) such that i &lt; j and a[i] &gt; a[j].</span><br></span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: n = 3, k = 1
+<strong>Output:</strong> 2</span>
+<span style="font-size: 18px;"><strong>Explanation</strong>: Total Permutation of first 3 numbers are {1, 2, 3}, {1, 3, 2}, {2, 1, 3}, {2, 3, 1}, {3, 1, 2} and {3, 2, 1}. Permutation with only 1 inversion are {1, 3, 2} and {2, 1, 3}.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: n = 3, k = 3
+<strong>Output:</strong> 1</span>
+<span style="font-size: 18px;"><strong>Explanation</strong>: Permutation with 3 inversions is {3, 2, 1}.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n*k ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Algorithms</code>&nbsp;
