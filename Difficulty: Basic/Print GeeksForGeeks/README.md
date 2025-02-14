@@ -1,0 +1,4 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/print-geeksforgeeks/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Print GeeksForGeeks</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given a C++ code that&nbsp;<strong>outputs</strong> two statements one is<strong>&nbsp;"Hello World"&nbsp;</strong>and another<strong>&nbsp;"GeeksForGeeks"</strong>. Comment the code that outputs<strong>&nbsp;"Hello World"</strong>, so that&nbsp;<strong>"GeeksForGeeks"</strong>&nbsp;gets printed.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong>&nbsp;</span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong></span><span style="font-size: 18px;">Not any</span>
+<span style="font-size: 18px;"><strong>Output: </strong>GeeksForGeeks</span></pre></div>
