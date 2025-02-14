@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sorted-frequency/1?page=3&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Sorted Frequency</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an integer array <strong>arr[]</strong>. You need to print the distinct elements of array in<strong> sorted order(increasing)</strong> together with their <strong>frequency</strong>.<br>Note: Print each element in a new line.</span></p>
+<p><span style="font-size: 18px;"><strong>Example:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = [3, 3, 2, 2, 1, 4]
+<strong>Output:<br></strong>1 1<br>2 2<br>3 2<br>4 1</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>3 appears 2 times. 2 appears 2 times. 1 appears 1 time, and </span><span style="font-size: 18px;">4 appears 1 time. So in sorted order we write elements and </span><span style="font-size: 18px;">their frequencies.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 ≤ arr.size() ≤ 10<sup>4</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;<code>STL</code>&nbsp;<code>Java-Collections</code>&nbsp;
