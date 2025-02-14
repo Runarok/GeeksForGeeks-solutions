@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/make-pair/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Make pair</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two elements<strong> x and y</strong>. The task is to return the pair formed with given elements.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><strong style="font-size: 18px;">Input:</strong><span style="font-size: 18px;"> 4 5 <br></span><span style="font-size: 18px;"><strong>Output: </strong>(4,5)<br></span></pre>
+<pre><strong><span style="font-size: 18px;">Input:</span></strong><span style="font-size: 18px;"> 1 0<br><strong>Output: </strong>(1,0)</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= x, y &lt;= 1000</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
