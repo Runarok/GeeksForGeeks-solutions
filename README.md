@@ -1,28 +1,23 @@
-# GeeksForGeeks Solutions Repository
+# GeeksForGeeks Solutions Repository 🧑‍💻
 
-This repository contains solutions to various problems from GeeksforGeeks (GFG). The solutions are organized by difficulty and problem categories, allowing easy access to each problem's solution.  
+Welcome to my repository of solutions to various problems from **GeeksforGeeks (GFG)**! 🎉  
+The solutions are neatly organized by difficulty and problem categories, making it easy to navigate and explore. 
+
 > **My GeeksforGeeks profile**: [RunarokHrafn](https://www.geeksforgeeks.org/user/runarokhrafn/)
 
 ---
 
-## Table of Contents
+## Problem Source & Automation for Uploads ⚙️
 
-1. [Problem Source & Automation for Uploads](#problem-source--automation-for-uploads)  
-2. [Issues Faced & Trick to Find Missing Files](#issues-faced--trick-to-find-missing-files)  
-3. [Milestones & Motivation](#milestones--motivation)
-
----
-
-## Problem Source & Automation for Uploads
-
-All problems in this repository are sourced from GeeksforGeeks. You can explore the problems [here](https://www.geeksforgeeks.org/explore?page=1&sortBy=difficulty).
+All problems in this repository are sourced from **GeeksforGeeks**. You can explore the problems [here](https://www.geeksforgeeks.org/explore?page=1&sortBy=difficulty).
 
 The upload of solutions to this repository was automated using a Chrome extension called [GFG to GitHub](https://chromewebstore.google.com/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk). This extension streamlines the process of saving solutions to GitHub.
+
 > The Open Source Repository used for automation is available at [GfG-To-GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub).
 
 ---
 
-## Issues Faced & Trick to Find Missing Files
+## Issues Faced & Trick to Find Missing Files 🛠️
 
 During the automation process, I encountered an issue where the browser tab was closed too soon after solving a problem. As a result, only the `README.md` file was created for some problems, but the corresponding code files were missing. 
 
@@ -53,13 +48,14 @@ In this example:
 
 ---
 
-## Milestones & Motivation
+## Milestones & Motivation 🚀
 
-Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. Updates will be made as needed, but not on a fixed schedule.
+Since **GeeksforGeeks** regularly adds new questions, my progress may not be fixed. Updates will be made as needed, but not on a fixed schedule.
 
-### Milestones / Completed Tasks Log
+<details>
+    <summary><strong>Milestones / Completed Tasks Log 🏆</strong></summary><br>
 
-- **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy)" tagged problems.
+- **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy)" tagged problems.  
 > **30 JAN to 9 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.
 - **30 JAN 2024**: Completed all "[Hard Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy)" tagged problems.
 - **31 JAN 2024**: Completed all "[Linked List](https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=accuracy)" tagged problems.
@@ -74,7 +70,9 @@ Since GeeksforGeeks regularly adds new questions, my progress may not be fixed. 
 - **9 FEB 2024**: Completed all "[Accolite](https://www.geeksforgeeks.org/explore?page=1&company=Accolite&sortBy=accuracy)" tagged problems.
 - **13 Feb 2024**: Completed all "[Medium Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Medium&sortBy=accuracy)" tagged problems.
 
-### Motivation
+</details>
+
+### Motivation 💡  
 I’m not doing this to create a portfolio or for external validation. I simply enjoy the satisfaction of completing something, similar to achieving 100% in a game. I also love coding and the learning process. My goal is to work through all the problems on GeeksforGeeks, improving my skills as I go. I focus on enjoying the journey and learning at my own pace rather than stressing myself out.
 
 > This repository idea was inspired by [iamarghamallick's repository](https://github.com/iamarghamallick), whose solutions you can view [here](https://github.com/iamarghamallick/GeeksforGeeks-Solutions/tree/main).
