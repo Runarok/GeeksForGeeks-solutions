@@ -1,8 +1,24 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/logical-operators-1597313687--171003/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Logical Operators</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Logical operators <strong>and, or, not </strong>are used in condition checking. Like <strong>a and b</strong> checks if both a and b are True. First a is checked then b is checked. <strong>a or b</strong> checks if either of a or b is True. If one is True; it doesn't check for the other. <strong>not a</strong> complements the boolean value of a.</span><br><span style="font-size: 18px;"><strong>Note: </strong>0 and empty string are False and all other values are True.</span><br><span style="font-size: 18px;">In this question you basically need to do<br>a <strong>and </strong>b<br>a <strong>or </strong>b<br><strong>not </strong>a</span></p>
-<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input</strong></span><span style="font-size: 14pt;"><strong>: </strong></span><span style="font-size: 18px;">a = 0, b = 2
-<strong>Output:</strong> 0 2 True</span><span style="font-size: 18px;">
-<strong>Explanation</strong>: 0 and 2 gives 0. 0 or 2 gives 2. not 0 give True as 0 is False.</span></pre>
-<pre><span style="font-size: 18px;"><strong>Input: </strong>a = 3, b = 4 
-<strong>Output:</strong> </span><span style="font-size: 18px;">4 3 False</span>
-<span style="font-size: 18px;"><strong>Explanation</strong>: 3 and 4 gives 4 as 3 is True and 4 is also True, so all conditions are passed. 3 or 4 gives 3 as or only checks if either of the condition is true and here 3 is True itself so it doesn't proceed forward. not 3 gives False as 3 was True.</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>python-operators</code>&nbsp;
+<h2><a href="https://www.geeksforgeeks.org/problems/logical-operators/1?page=4&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Logical Operators</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Logical operators are used when we want to check the truth value of certain statements. Logical operators help us in checking multiple statements together for their truthness.</span></p>
+
+<p><span style="font-size:18px">Here we will learn logical operators like <strong>AND(&amp;&amp;), OR(||), NOT(!)</strong>. These operators produce either a true or a false as an output.</span></p>
+
+<p><span style="font-size:18px"><strong>Example:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input:
+</strong>a = 6
+b = 7
+<strong>Output:</strong>1 1 0
+<strong>Explanation:</strong>a &amp;&amp; b = 1
+a || b = 1
+</span><span style="font-size:18px">(!a) &amp;&amp; (!b) = 0</span></pre>
+
+<p><span style="font-size:18px"><strong>Your Task: </strong><br>
+Your task is to complete the provided function.</span></p>
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 &lt;= a, b,&lt;= 100</span></p>
+
+<p><strong><span style="font-size:18px">Video:</span></strong></p>
+
+<p><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/WFy9SFJsAWQ" width="560"></iframe></p>
+</div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>cpp-operator</code>&nbsp;
