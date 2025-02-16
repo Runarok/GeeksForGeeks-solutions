@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/front-to-back/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Front to Back</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;"><a href="https://www.geeksforgeeks.org/introduction-iterators-c/">Iterators </a>are used to iterate over vectors, maps, sets etc. Here we will learn to iterate over a vector from begin to end.<br>You are given a &nbsp;vector&nbsp;<strong>v</strong> and iterators <strong>it1</strong> and <strong>it2</strong> that points to the begining and end of the vector respectively. You need to print its elements.</span></p>
+<p><span style="font-size: 18px;"><strong>Example : </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>vector -&gt; 1 2 3 4 5
+<strong>Output: </strong>1 2 3 4 5</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= 10<sup>7</sup><br>0 &lt;= V<sub>i </sub>&lt;= 10<sup>7</sup></span></p>
+<p>&nbsp;</p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
