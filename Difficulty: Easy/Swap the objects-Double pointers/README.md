@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/swap-the-objects-double-pointers--141630/1?page=2&difficulty=Easy&status=unsolved,attempted&sortBy=accuracy">Swap the objects-Double pointers</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;"><em>Refer Classes and objects track before doing this problem. </em><br>Here we will see how to use classes and objects and we'll swap the values of two objects. You have&nbsp;<strong>name</strong>, <strong>number</strong>, and <strong>height </strong>for two objects. </span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong> <strong> </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>obj1-&gt; Morty 1234 6, obj2-&gt; Rick 5678 5
+<strong>Output: </strong>Rick 5678 5 </span>
+<span style="font-size: 18px;">        Morty 1234 6</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;<code>Class</code>&nbsp;
