@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/while-loop--175711/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">While Loop</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a number <strong>x</strong>, the task is to print the numbers from <strong>x</strong> to 0 in <strong>decreasing order</strong> in a single line. </span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/while-loop/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">While Loop</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a number <strong>x</strong>, the task is to print the numbers from <strong>x</strong> to 0 in <strong>decreasing order</strong> in a single line. </span></p>
 <p><span style="font-size: 18px;"><strong>Example:</strong></span><span style="font-size: 18px;"><strong> </strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>x = 3</span><span style="font-size: 18px;"><strong>
 Output: </strong>3 2 1 0</span>
