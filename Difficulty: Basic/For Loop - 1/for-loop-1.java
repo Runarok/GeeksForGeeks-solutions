@@ -14,8 +14,11 @@ public static void utility(int n) {
     
     // Loop from 1 to 10 to print the multiples of n
     for (int i = 1; i <= 10; i++) {
-        // Print the current multiple of n, followed by a space
-        System.out.print(n * i + " ");
+        // Calculate the multiple of n for the current iteration
+        int mul = n * i;
+        
+        // Print the calculated multiple, followed by a space
+        System.out.print(mul + " ");
     }
 }
 
