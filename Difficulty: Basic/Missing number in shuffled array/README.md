@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/missing-number-in-shuffled-array0938/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Missing number in shuffled array</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr1</strong>. The contents of arr are copied into another array <strong>arr2</strong> and numbers are shuffled. Also, one element is removed from arr2. The task is to find the missing element.</span></p>
+<div><span style="font-size: 18px;"><strong>Examples:</strong></span></div>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr1[] = [4, 8, 1, 3, 7] and arr2[] = [7, 4, 3, 1]
+<strong>Output:</strong> 8
+</span><strong><span style="font-size: 18px;">Explanation: </span></strong><span style="font-size: 18px;">8 is the only element missing from arr2.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr1[] = [12, 10, 15, 23, 11, 30] and arr2[] = [15, 12, 23, 11, 30]
+<strong>Output:</strong> 10<br></span><strong style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation: </strong><span style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">10</span><span style="font-size: 18px;"> is the only element missing from arr2.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>2 &lt;= arr1.size() &lt;= 10<sup>6<br></sup>arr2.size() = arr1.size() - 1<br>1 &lt;= arr[i] &lt;= 10<sup>6</sup><br></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Bit Magic</code>&nbsp;<code>Data Structures</code>&nbsp;
