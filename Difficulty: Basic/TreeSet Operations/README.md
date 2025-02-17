@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/treeset-operations/1?page=1&difficulty=Basic&status=attempted&sortBy=accuracy">TreeSet Operations</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an integer array <strong>arr[]</strong>. You need to <strong>insert </strong>the elements of arr into a TreeSet and <strong>display </strong>the results. Also, you need to<strong> erase a given element x</strong> from the TreeSet and print "<strong>erased x</strong>" if <strong>successfully </strong>erased, else print "<strong>not found</strong>".<br>Note: Don't add a new line in any function.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input:</span> </strong><span style="font-size: 14pt;">arr[] = [</span><span style="font-size: 18px;">9, 8, 7, 4, 4, 2, 1, 1, 9, 8], x = 1</span>
+<span style="font-size: 18px;"><strong>Output:</strong>
+1 2 4 7 8 9
+erased 1
+2 4 7 8 9</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Initially TreeSet contains [1, 2, 4, 7, 8, 9]. 1 is present in the set, therefore prints "erased 1".Finally set contains [2, 4, 7, 8, 9].</span></pre>
+<pre><strong><span style="font-size: 18px;">Input:</span></strong><span style="font-size: 18px;"> arr[] = [4, 2, 3, 3], x = 1<br><strong>Output:<br></strong>2 3 4<br>not found<br>2 3 4<br><strong>Explanation:</strong> Initially TreeSet contains [2, 3, 4]. 1 is not present in the set so prints "not found". Finally set remains the same.<br></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.length &lt;= 1000<br>1 &lt;= arr<sub>i</sub> &lt;= 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;<code>Java-Collections</code>&nbsp;
