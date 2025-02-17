@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/a-guy-with-a-mental-problem1604/1?page=2&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">A guy with a mental problem</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">A person needs to reach home by train but compulsively switches trains at every station. If they start with train <strong>arr1</strong> at the first station, they will switch to train <strong>arr2</strong> at the next station, and then switch back to train <strong>arr1</strong> at the following station, and so on. Similarly, if they start with train <strong>arr2</strong>, they will switch to train <strong>arr1</strong> at the next station, and continue alternating.</span></p>
+<p><span style="font-size: 14pt;">Given two arrays, <strong>arr1</strong> and <strong>arr2</strong>, where:</span></p>
+<ul>
+<li><span style="font-size: 14pt;"><strong>arr1[i]</strong> represents the time taken by train <strong>arr1</strong> at station <strong>i</strong>.</span></li>
+<li><span style="font-size: 14pt;"><strong>arr2[i]</strong> represents the time taken by train <strong>arr2</strong> at station <strong>i</strong>.</span></li>
+</ul>
+<p><span style="font-size: 14pt;">Determine the minimum total time required to reach home starting from either train <strong>arr1</strong> or train <strong>arr2</strong>, with the switching pattern maintained.</span></p>
+<h3><span style="font-size: 14pt;">Examples:</span></h3>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr1 = [2, 1, 2], arr2 = [3, 2, 1]</span><br><span style="font-size: 14pt;"><strong>Output:</strong> 5</span><br><span style="font-size: 14pt;"><strong>Explanation:</strong> Starting with train arr2 yields the minimum total time of 5.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr1 = [1, 3, 1, 2] arr2 = [2, 2, 3, 1]</span><br><span style="font-size: 14pt;"><strong>Output:</strong> 5</span><br><span style="font-size: 14pt;"><strong>Explanation:</strong> Starting with train arr1 yields the minimum total time of 5.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity</strong><strong>:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<h3><span style="font-size: 14pt;">Constraints</span></h3>
+<p><span style="font-size: 14pt;">1 ≤ arr1.size(), arr2.size() ≤ 10<sup>6</sup><br>1 ≤&nbsp;arr1[i],&nbsp;arr2[i]&nbsp;≤&nbsp;</span><span style="font-size: 18.6667px;">10</span><sup>6</sup></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
