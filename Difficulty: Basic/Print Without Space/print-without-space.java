@@ -1,26 +1,35 @@
 //{ Driver Code Starts
-
-// } Driver Code Ends
+// Initial Template for Java
 
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
-        // Create a Scanner object to read input from the console
-        Scanner scanner = new Scanner(System.in);
+class Main {
+    static Scanner scn = new Scanner(System.in);
 
-        // Read two lines of input as strings
-        String firstString = scanner.nextLine();
-        String secondString = scanner.nextLine();
+    
+// } Driver Code Ends
 
-        // Print the strings in the required format
-        System.out.println(firstString + secondString);
-
-        // Close the scanner to prevent resource leaks
-        scanner.close();
-    }
+public static void utility() {
+    // Reading two input strings
+    String a = scn.nextLine();
+    String b = scn.nextLine();
+    
+    // Concatenating and printing both strings without any space
+    System.out.println(a + "" + b);
 }
 
 
 //{ Driver Code Starts.
+
+    public static void main(String[] args) {
+        int t = scn.nextInt();
+        scn.nextLine();
+        while (t-- > 0) {
+            utility();
+
+            System.out.println("~");
+        }
+        scn.close();
+    }
+}
 // } Driver Code Ends
