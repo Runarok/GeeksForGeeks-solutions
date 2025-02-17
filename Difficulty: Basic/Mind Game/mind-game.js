@@ -41,17 +41,16 @@ console.log("~");
 }
 }
 
-// } Driver Code Ends
-
 // User function Template for javascript
 
 /**
- * @param {number} K
- * @return {number}
+ * @param {number} K - The input number to be halved
+ * @return {number} - The result after halving the number and flooring it
  */
 
 class Solution {
     mindGame(K){
-       return Math.floor(K/2);
+       // Halve the number K and round it down to the nearest integer
+       return Math.floor(K / 2);
     }
 }
