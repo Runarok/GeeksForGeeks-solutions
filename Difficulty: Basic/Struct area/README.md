@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/struct-area/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Struct area</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;"><em>As now you have learnt about how to create structures. Let us now see how to assign values to data members of structures and perform some operation.</em></span></p>
+<p><span style="font-size: 18px;">Given a structure <strong>area </strong>with <strong>side, len and wid</strong> as data members. Your task is to assign values to data members and find area of square with side <strong>side</strong>&nbsp;and area of rectangle with length <strong>len</strong>&nbsp;and width <strong>wid</strong>. You will be given a function <strong>find_area(side, len, wid)</strong> for side, len and wid as an argument.</span></p>
+<p><span style="font-size: 18px;"><strong>Example :</strong> <strong> </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>side = 25, len = 40, wid = 60
+<strong>Output: </strong>625 2400
+<strong>Explanation: </strong>Area of square with given side 25 is: 625(side*side) and area of rectangle is: 2400(len*wid).
+</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Practice-Problems</code>&nbsp;<code>CPP</code>&nbsp;
