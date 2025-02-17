@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/lcm--151453/1?page=1&difficulty=Basic&status=unsolved&sortBy=accuracy">LCM</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two numbers<strong>&nbsp;a&nbsp;</strong>and<strong>&nbsp;b. </strong>The task is to find out their LCM.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/lcm/1?page=3&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">LCM</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two numbers<strong>&nbsp;a&nbsp;</strong>and<strong>&nbsp;b. </strong>The task is to find out their LCM.</span></p>
 <p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>a<strong> = </strong>5, b<strong> = </strong>10
 <strong>Output: </strong>10
