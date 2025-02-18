@@ -1,0 +1,4 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/unordered-set-find-duplicate/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Unordered Set Find Duplicate</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an array <strong>arr[]</strong>. You need to find the duplicates in that array and print them using an iterator.<br><strong>Note:&nbsp;</strong>Use unordered set, and give <strong>extra line</strong> after printing.</span></p>
+<p><span style="font-size: 18px;"><strong>Example:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[]= [1, 1, 2, 2]<br><strong>Output: </strong>1 2<br></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
