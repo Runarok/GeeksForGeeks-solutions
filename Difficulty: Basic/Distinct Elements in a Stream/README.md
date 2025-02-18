@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/distinct-elements-in-a-stream1557/1?page=11&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Distinct Elements in a Stream</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an array of integers <strong>arr[]</strong>, the task is to return the no of distinct elements in subarray <strong>arr[0, i]</strong> for <strong>0</strong> &lt;= <strong>i </strong>&lt;<strong>arr.size()</strong>.<br>The array will have positive and negative values. positive value means you have to append it into your data and negative value means you have to remove it from your data.<br><strong>Note:</strong> If the element is not present in the data and you get the -ve of that element then no changes should occur.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [5, 5, 7, -5, -7, 1, 2, -2]
+<strong>Output: </strong>[1, 1, 2, 2, 1, 2, 3, 2]
+<strong>Explanation: </strong>Proper adding and removal of intgers will give this output.<br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [9, 9, 3, -9, -3, -9]
+<strong>Output: </strong>[1, 1, 2, 2, 1, 0]
+<strong>Explanation: </strong>Proper adding and removal of intgers will give this output.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity: </strong>O(n).<strong><br>Expected Auxiliary Space:&nbsp;</strong>O(n).</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>-10<sup>6</sup> ≤ arr[i] ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;<code>Data Structures</code>&nbsp;
