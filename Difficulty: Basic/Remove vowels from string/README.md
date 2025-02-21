@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/remove-vowels-from-string1446/1?page=4&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Remove vowels from string</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a string <strong>s</strong>. Your task is to remove the vowels from the string.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = "welcome to geeksforgeeks"</span>
+<span style="font-size: 18px;"><strong>Output:</strong></span> "<span style="font-size: 18px;">wlcm t gksfrgks"
+<strong>Explanation:</strong> Vowels were ignored only consonents were retuherned in the same order.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = "</span><span style="font-size: 20px;">what is your name ?</span><span style="font-size: 18px;">"</span>
+<span style="font-size: 18px;"><strong>Output:</strong></span> <span style="font-size: 20px;">wht s yr nm ?</span><span style="font-size: 18px;"><br></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= |s| &lt;= 10<sup>5</sup><br>Alphabets are lower cases only</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>GE</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Data Structures</code>&nbsp;
