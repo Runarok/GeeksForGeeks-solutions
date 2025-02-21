@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/shortest-un-ordered-subarray3634/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Shortest un-ordered subarray</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-family: 'andale mono', monospace; font-size: 14pt;">Given an array <strong>arr </strong>of distinct numbers. Find the length of the shortest unordered (neither increasing nor decreasing) subarray in the given array. If there is no subarray then return 0.</span></p>
+<p><span style="font-family: 'andale mono', monospace; font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-family: 'andale mono', monospace; font-size: 14pt;"><strong>Input: </strong>arr[] = [7, 9, 10, 8, 11]
+<strong>Output: </strong>3
+<strong>Explanation: </strong>Shortest unsorted subarray is 9, 10, 8 which is of 3 elements.</span></pre>
+<pre><span style="font-family: 'andale mono', monospace; font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 2, 3, 5]
+<strong>Output: </strong>0<br><strong>Explanation: </strong>There is no subarray.</span></pre>
+<p><span style="font-family: 'andale mono', monospace; font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-family: 'andale mono', monospace; font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>6</sup><br>1 &lt;= arr[i] &lt;= 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Oracle</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
