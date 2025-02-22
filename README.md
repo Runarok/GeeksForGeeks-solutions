@@ -1,9 +1,13 @@
-# GeeksForGeeks Solutions Repository 🧑‍💻
+<!-- <img src="https://raw.githubusercontent.com/Runarok/GeeksForGeeks-solutions/main/Assets/GFG_NO_Background.png" alt="Runarok Logo" width="60" style="vertical-align: middle; padding-right: 10px;"> -->
+
+<header style="text-align: center; padding: 20px;">
+    <h1 style="display: inline; vertical-align: middle;">GeeksForGeeks Solutions Repository 🧑‍💻</h1>
+</header>
 
 Welcome to my repository of solutions to various problems from **GeeksforGeeks (GFG)**! 🎉  
 The solutions are neatly organized by difficulty and problem categories, making it easy to navigate and explore. 
 
-> **My GeeksforGeeks profile**: [RunarokHrafn](https://www.geeksforgeeks.org/user/runarokhrafn/)
+> **My GeeksforGeeks profile**: [RunarokHrafn](https://www.geeksforgeeks.org/user/runarokhrafn/) 
 
 ---
 
