@@ -15,9 +15,10 @@ The upload of solutions to this repository was automated using a Chrome extensio
 
 > The Open Source Repository used for automation is available at [GfG-To-GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub).
 
----
+<br>
 
-## Issues Faced & Trick to Find Missing Files 🛠️
+<details>
+    <summary><strong>Issues Faced & Trick to Find Missing Files 🛠️</strong></summary><br>
 
 During the automation process, I encountered an issue where the browser tab was closed too soon after solving a problem. As a result, only the `README.md` file was created for some problems, but the corresponding code files were missing. 
 
@@ -45,6 +46,8 @@ During the automation process, I encountered an issue where the browser tab was 
 
 In this example:
 - If the `array-search.py` file is missing, go to the GeeksforGeeks page for "Array Search", copy the code, and manually upload it to the `array-search.py` file in the `Array Search/` directory.
+
+</details>
 
 ---
 
