@@ -55,20 +55,89 @@ Since **GeeksforGeeks** regularly adds new questions, my progress may not be fix
 <details>
     <summary><strong>Milestones / Completed Tasks Log 🏆</strong></summary><br>
 
-- **24 JAN 2024**: Completed all "[Google](https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy)" tagged problems.  
-> **30 JAN to 9 FEB 2024**: Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.
-- **30 JAN 2024**: Completed all "[Hard Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy)" tagged problems.
-- **31 JAN 2024**: Completed all "[Linked List](https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=accuracy)" tagged problems.
-- **1 FEB 2024**: Completed "[SDE Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=a663236c31453b969852f9ea22507634&sortBy=accuracy&sprint_name=SDE%20Sheet)" and "[Beginner's DSA Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=ca8ae412173dbd8346c26a0295d098fd&sortBy=accuracy&sprint_name=Beginner%27s%20DSA%20Sheet)".
-- **2 FEB 2024**: Completed all "[Adobe](https://www.geeksforgeeks.org/explore?page=1&company=Adobe&sortBy=accuracy)" tagged problems.
-- **3 FEB 2024**: Completed all "[Flipkart](https://www.geeksforgeeks.org/explore?page=1&company=Flipkart&sortBy=accuracy)" tagged problems.
-- **4 FEB 2024**: Completed all "[Samsung](https://www.geeksforgeeks.org/explore?page=1&company=Samsung&sortBy=accuracy)" and "[Tree](https://www.geeksforgeeks.org/explore?page=1&category=Tree&sortBy=accuracy)" tagged problems.
-- **5 FEB 2024**: Completed all "[Graph](https://www.geeksforgeeks.org/explore?page=1&category=Graph&sortBy=accuracy)" and "[Two-pointer Algorithm](https://www.geeksforgeeks.org/explore?page=1&category=two-pointer-algorithm&sortBy=accuracy)" tagged problems.
-- **6 FEB 2024**: Completed all "[Stack](https://www.geeksforgeeks.org/explore?page=1&category=Stack&sortBy=accuracy)" and "[Binary Search](https://www.geeksforgeeks.org/explore?page=1&category=Binary%20Search&sortBy=accuracy)" tagged problems.
-- **7 FEB 2024**: Completed all "[Matrix](https://www.geeksforgeeks.org/explore?page=1&category=Matrix&sortBy=accuracy)" tagged problems.
-- **8 FEB 2024**: Completed "[Love Babbar Sheet](https://www.geeksforgeeks.org/explore?page=1&sprint=94ade6723438d94ecf0c00c3937dad55&sortBy=accuracy&sprint_name=Love%20Babbar%20Sheet)".
-- **9 FEB 2024**: Completed all "[Accolite](https://www.geeksforgeeks.org/explore?page=1&company=Accolite&sortBy=accuracy)" tagged problems.
-- **13 Feb 2024**: Completed all "[Medium Difficulty](https://www.geeksforgeeks.org/explore?page=1&difficulty=Medium&sortBy=accuracy)" tagged problems.
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Day</th>
+      <th>Topic / Category / Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+      <td>24 JAN 2024</td>
+      <td>Wednesday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Google&sortBy=accuracy">Google</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>30 JAN to <br> 9 FEB 2024</td>
+      <td colspan="2" style="text-align:center; font-weight: bold;">
+        <em>Completed the remaining problems from Tags and sheets that were Slightly-Solved till date, as I was mostly free these whole days.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>30 JAN 2024</td>
+      <td>Tuesday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&difficulty=Hard&sortBy=accuracy">Hard Difficulty</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>31 JAN 2024</td>
+      <td>Wednesday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=accuracy">Linked List</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>01 FEB 2024</td>
+      <td>Thursday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&sprint=a663236c31453b969852f9ea22507634&sortBy=accuracy&sprint_name=SDE%20Sheet">SDE Sheet</a> and <a href="https://www.geeksforgeeks.org/explore?page=1&sprint=ca8ae412173dbd8346c26a0295d098fd&sortBy=accuracy&sprint_name=Beginner%27s%20DSA%20Sheet">Beginner's DSA Sheet</a>.</td>
+    </tr>
+    <tr>
+      <td>02 FEB 2024</td>
+      <td>Friday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Adobe&sortBy=accuracy">Adobe</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>03 FEB 2024</td>
+      <td>Saturday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Flipkart&sortBy=accuracy">Flipkart</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>04 FEB 2024</td>
+      <td>Sunday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Samsung&sortBy=accuracy">Samsung</a> and <a href="https://www.geeksforgeeks.org/explore?page=1&category=Tree&sortBy=accuracy">Tree</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>05 FEB 2024</td>
+      <td>Monday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Graph&sortBy=accuracy">Graph</a> and <a href="https://www.geeksforgeeks.org/explore?page=1&category=two-pointer-algorithm&sortBy=accuracy">Two-pointer Algorithm</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>06 FEB 2024</td>
+      <td>Tuesday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Stack&sortBy=accuracy">Stack</a> and <a href="https://www.geeksforgeeks.org/explore?page=1&category=Binary%20Search&sortBy=accuracy">Binary Search</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>07 FEB 2024</td>
+      <td>Wednesday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Matrix&sortBy=accuracy">Matrix</a> tagged problems.</td>
+    </tr>
+    <tr>
+      <td>08 FEB 2024</td>
+      <td>Thursday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&sprint=94ade6723438d94ecf0c00c3937dad55&sortBy=accuracy&sprint_name=Love%20Babbar%20Sheet">Love Babbar Sheet</a>.</td>
+    </tr>
+    <tr>
+      <td>09 FEB 2024</td>
+      <td>Friday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Accolite&sortBy=accuracy">Accolite</a> tagged problems.</td>
+    </tr>
+  </tbody>
+    <tr>
+      <td>09 FEB 2024</td>
+      <td>Friday</td>
+      <td><a href="https://www.geeksforgeeks.org/explore?page=1&difficulty=Basic&sortBy=accuracy">Basic Difficulty</a> tagged problems.</td>
+    </tr>
+</table>
+
 
 </details>
 
