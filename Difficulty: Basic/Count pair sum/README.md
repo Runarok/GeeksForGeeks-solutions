@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/count-pair-sum5956/1?page=1&difficulty=Basic&status=unsolved,attempted&sortBy=accuracy">Count pair sum</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two sorted arrays <strong>arr</strong>1 and <strong>arr</strong>2 of distinct elements. Given a value <strong>x</strong>. The problem is to count all pairs from both arrays whose sum equals <strong>x.</strong><br><strong>Note:</strong> The pair has an element from each array.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>x = 10, arr1[] = [1, 3, 5, 7], arr2[] = [2, 3, 5, 8] 
+<strong>Output:</strong> 2
+<strong>Explanation</strong>: The pairs are: (5, 5) and (7, 3).  </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> x = 5, arr1[] = [1, 2, 3, 4], arr2[] = [5, 6, 7, 8]
+<strong>Output:</strong> 0<br><strong>Explanation: </strong>There are no valid pairs.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity: </strong>O(n+m).<br><strong>Expected Auxiliary Space:</strong> O(1).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong>1 ≤ x ≤ 10<sup>9</sup><br>1 ≤ arr1.size(), arr2.size() ≤ 10<sup>6<br></sup>1 ≤ arr1[i], arr2[i] ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;<code>Sorting</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
