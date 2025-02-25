@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/geometric-progression-term--151948/1?page=1&status=unsolved&sortBy=accuracy">Geometric Progression Term</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given three integers, <strong>a, r</strong>&nbsp;and&nbsp;<strong>n.&nbsp;</strong>Where&nbsp;<strong>a</strong>&nbsp;is the first term, <strong>r</strong> is the common ratio of a G.P. and <strong>r</strong> is equal to 2<strong>.&nbsp;</strong>&nbsp;Calculate the&nbsp;<strong>n<sub>th&nbsp;</sub></strong>term of GP. </span></p>
+<p><span style="font-size: 18px;">The <strong>n</strong><sub>th&nbsp;</sub>term is given by&nbsp;<strong>a<sub>n&nbsp;</sub>= a * r<sup>(n-1)</sup></strong>, where r = 2.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong><strong> </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>a = 2, n = 10
+<strong>Output: </strong>1024
+<strong>Explanation:</strong><sub> </sub>a<sub>n</sub>&nbsp;= a * r<sup>n-1</sup>&nbsp;= 2 * 2<sup>10-1 </sup>= 1024</span>
+</pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Bit Magic</code>&nbsp;<code>CPP</code>&nbsp;<code>Data Structures</code>&nbsp;<code>C</code>&nbsp;
