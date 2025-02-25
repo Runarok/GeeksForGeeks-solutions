@@ -22,13 +22,12 @@ rl.on("close", () => {
     const solution = new Solution();
     inputs.forEach((input) => {
         const arr = input.split(" ").map(Number);
-        const result = solution.maxOfMin(arr);
+        const result = solution.maxOfMins(arr);
         console.log(result.join(" "));
         console.log("~");
     });
 });
 // } Driver Code Ends
-
 
 // User function Template for javascript
 
@@ -40,7 +39,7 @@ rl.on("close", () => {
 
 class Solution {
     // Function to find the maximum of minimums for every window size.
-    maxOfMin(arr) {
+    maxOfMins(arr) {
         let N = arr.length;
         let result = new Array(N).fill(0); // Array to store the final results
         let nextSmaller = new Array(N).fill(N); // Stores indices of next smaller elements
