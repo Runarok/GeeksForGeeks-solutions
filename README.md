@@ -148,22 +148,22 @@ Since **GeeksforGeeks** regularly adds new questions, my progress may not be fix
     </tr> 
   <td>22 FEB 2024</td>
   <td>Thursday</td>
-  <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Microsoft&sortBy=accuracy">Microsoft company tagged problems.</a></td>
+  <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Microsoft&sortBy=accuracy">Microsoft</a> tagged problems.</td>
     </tr>
     <tr>
   <td>22 FEB 2024</td>
   <td>Thursday</td>
-  <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Amazon&sortBy=accuracy">Amazon company tagged problems.</a></td>
+  <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Amazon&sortBy=accuracy">Amazon</a> tagged problems.</td>
     </tr>
     <tr>
   <td>22 FEB 2024</td>
   <td>Thursday</td>
-  <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Strings&sortBy=accuracy">Strings category tagged problems.</a></td>
+  <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Strings&sortBy=accuracy">Strings</a> tagged problems.</td>
     </tr>
     <tr>
   <td>22 FEB 2024</td>
   <td>Thursday</td>
-  <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Arrays&sortBy=accuracy">Arrays category tagged problems.</a></td>
+  <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Arrays&sortBy=accuracy">Arrays</a> tagged problems.</td>
     </tr>
   </tbody>
 </table>
