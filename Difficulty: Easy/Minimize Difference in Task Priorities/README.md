@@ -1,0 +1,17 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-difference-among-k5805/1?page=1&company=Amazon&status=unsolved,attempted&sortBy=accuracy">Minimize Difference in Task Priorities</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given an array <strong>arr[]</strong> where each element represents the priority level of a task. There are <strong>k</strong> workers, and you need to assign exactly one task to each worker such that:</span></p>
+<ol>
+<li><span style="font-size: 14pt;">The difference between the highest and lowest priority levels among the assigned tasks is minimized.</span></li>
+<li><span style="font-size: 14pt;">At least <strong>m</strong> out of the <strong>k </strong>assigned tasks must have a priority level greater than or equal to a given threshold <strong>t</strong>.</span></li>
+</ol>
+<p><span style="font-size: 14pt;">Note:<strong> </strong>Return -1, if no valid assignment exists.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [4, 1, 7, 5, 3, 8, 6], k = 3, m = 1, t = 5 
+<strong>Output: </strong>2
+<strong>Explanation</strong>: Selecting tasks with priorities <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">[6, 7, 8]</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> minimizes the difference to </span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">2</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> while ensuring at least one task meets the priority threshold of </span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">≥ 5</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">.</span></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [10, 20, 30, 40, 50], k = 2, m = 1, t = 25
+<strong>Output:</strong> 10
+<strong>Explanation</strong>: Selecting tasks with priorities [20, 30] minimizes the difference to 10 while ensuring at least one task meets the priority threshold of ≥ 25.<br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [2, 4], k = 1, m = 1, t = 1
+<strong>Output: </strong>0
+<strong>Explanation</strong>: Selecting tasks with priorities [2] or [4] minimizes the difference to 0 while ensuring at least one task meets the priority threshold of ≥ 1.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6<br></sup>1 ≤ arr[i] ≤ 10<sup>6<br></sup>0 &lt; k ≤ arr.size()<br>0 ≤ m ≤ k<br>1 &lt;= t &lt;= 10<sup>6</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Sorting</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
