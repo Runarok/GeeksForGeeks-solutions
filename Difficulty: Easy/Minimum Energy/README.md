@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-energy1107/1?page=1&company=Amazon&status=unsolved,attempted&sortBy=accuracy">Minimum Energy</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array containing positive and negative numbers. The array represents checkpoints from one end to the other end of the street. Positive and negative values represent the amount of energy at that checkpoint. Positive numbers increase the energy and negative numbers decrease. Find the minimum initial energy required to cross the street so that the energy level never becomes 0 or less than 0.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong>&nbsp; The value of the minimum initial energy required will be 1 even if we cross the street successfully without losing energy to less than and equal to 0 at any checkpoint. The 1 is needed for the initial checkpoint.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [4, -10, 4, 4, 4]
+<strong>Output: </strong>7
+<strong>Explanation: </strong>By having an initial energy of 7 we can make sure that all the checkpoints are visited and the fuel never reaches 0 or less value.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 5, 2, 6, 1]
+<strong>Output: </strong>1
+<strong>Explanation: </strong>We need at least 1 initial energy to reach first checkpoint</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity: </strong>O(n)<br><strong>Expected Space&nbsp;</strong></span><strong style="font-size: 18px;">Complexity</strong><strong style="font-size: 18px;">: </strong><span style="font-size: 18px;">O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>-10<sup>3</sup> ≤ arr[i] ≤ 10<sup>3</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
