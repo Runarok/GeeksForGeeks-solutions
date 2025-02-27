@@ -146,7 +146,6 @@ Since **GeeksforGeeks** regularly adds new questions, my progress may not be fix
       <td>Saturday</td>
       <td><a href="https://www.geeksforgeeks.org/explore?page=1&difficulty=Basic&sortBy=accuracy">Basic Difficulty</a> tagged problems.</td>
     </tr> 
-      <!--
   <td>22 FEB 2024</td>
   <td>Thursday</td>
   <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Microsoft&sortBy=accuracy">Microsoft company tagged problems.</a></td>
@@ -165,7 +164,7 @@ Since **GeeksforGeeks** regularly adds new questions, my progress may not be fix
   <td>22 FEB 2024</td>
   <td>Thursday</td>
   <td><a href="https://www.geeksforgeeks.org/explore?page=1&category=Arrays&sortBy=accuracy">Arrays category tagged problems.</a></td>
-    </tr> -->
+    </tr>
   </tbody>
 </table>
 
