@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/match-specific-pattern/1?page=1&company=Microsoft&difficulty=Basic,Easy,Medium,Hard&status=unsolved,attempted&sortBy=accuracy">Match specific pattern</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a dictionary of words and a pattern. Every character in the pattern is uniquely mapped to a character in the dictionary. Find all such words in the dictionary that match the given pattern.&nbsp;</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 4, dict[] = {abb,abc,xyz,xyy}, pattern  = foo
+<strong>Output: </strong>abb xyy<strong>
+Explanation: </strong>xyy and abb have the same character at index 1 and 2 like the pattern.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong>&nbsp;O(N*K) (where K is the&nbsp;length of the pattern).<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(N).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= N &lt;= 10</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;<code>Strings</code>&nbsp;<code>Data Structures</code>&nbsp;
