@@ -146,12 +146,12 @@ Since **GeeksforGeeks** regularly adds new questions, my progress may not be fix
       <td>Saturday</td>
       <td><a href="https://www.geeksforgeeks.org/explore?page=1&difficulty=Basic&sortBy=accuracy">Basic Difficulty</a> tagged problems.</td>
     </tr> 
-  <td>22 FEB 2024</td>
+  <td>27 FEB 2024</td>
   <td>Thursday</td>
   <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Microsoft&sortBy=accuracy">Microsoft</a> tagged problems.</td>
     </tr>
     <tr>
-  <td>22 FEB 2024</td>
+  <td>27 FEB 2024</td>
   <td>Thursday</td>
   <td><a href="https://www.geeksforgeeks.org/explore?page=1&company=Amazon&sortBy=accuracy">Amazon</a> tagged problems.</td>
     </tr>
