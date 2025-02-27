@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximum-in-struct-array/1?page=1&company=Microsoft&difficulty=Basic,Easy,Medium,Hard&status=unsolved,attempted&sortBy=accuracy">Maximum Pairwise Computed Value</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an even sized array <strong>arr[]</strong>, where each consecutive pair of elements represents a height with two fields: <strong>feet</strong> and <strong>inches</strong>. Find the maximum height, where the height is calculated by converting feet to inches and adding the inches.</span></p>
+<p><strong style="font-size: 18px;">Examples:</strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 2, 1] <br><strong>Output: </strong>25
+<strong>Explanation: </strong>(1, 2) and (2, 1) are respective given heights. After converting both heigths in to inches, we get 14 and 25 as respective heights. So, 25 is the maximum height.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 2, 2, 3, 1, 2]
+<strong>Output: </strong>38
+<strong>Explanation: </strong>(3, 2), (2,3) and (1, 2) are respective given heights. After converting both heigths in to inches, we get 38, 27 and 14 as respective heights. So, 38 is the maximum height.
+</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(n)<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>2 &lt;= arr.size() &lt;= 10<sup>5<br></sup></span><span style="font-size: 18px;">1 &lt;= arr[i] &lt;= 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Microsoft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
