@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/even-and-odd-elements-at-even-and-odd-positions1342/1?page=3&company=Amazon&status=unsolved,attempted&sortBy=accuracy">Even and odd elements at even and odd positions</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong>, the task is to arrange the array such that odd elements occupy the odd positions and even elements occupy the even positions. The order of elements must remain the same. Consider zero-based indexing. After printing according to conditions, if remaining, print the remaining elements as it is.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3, 4, 5, 6]
+<strong>Output:</strong> [2, 1, 4, 3, 6, 5]
+<strong>Explanation</strong>: Even elements are at even position and odd elements are at odd position keeping the order maintained.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong> arr[] = [3, 7, 4, 1]
+<strong>Output:</strong> [4, 3, 7, 1]<br></span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n).<br><strong>Expected Auxiliary Space:</strong> O(n).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>2 ≤ arr.size() ≤ 10<sup>6<br></sup></span><span style="font-size: 18px;">1 ≤ arr[i] ≤arr.size()</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
