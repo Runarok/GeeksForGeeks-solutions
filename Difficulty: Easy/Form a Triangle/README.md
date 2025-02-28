@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/form-a-triangle5935/1?page=2&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Form a Triangle</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;"><span style="font-family: arial,helvetica,sans-serif;">Given an array<strong> arr[]</strong> of integers, we need to find out all possible ways to construct non-<a href="https://en.wikipedia.org/wiki/Degeneracy_(mathematics)#Triangle">degenerate</a> triangles using array values as its sides. If no such triangle can be formed then return 0.</span></span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[]= [5, 4, 3, 1, 2]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> Sides of possible triangle are (2 3 4), (3 4 5) and (2 4 5)</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[]= [4, 1, 2]
+<strong>Output:</strong> 0 
+<strong>Explanation:</strong> No triangle is possible from given array values</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n<sup>2</sup>)<br><strong>Expected Auxiliary Space:</strong> O(1)<br><br><span style="font-family: arial,helvetica,sans-serif;"><strong>Constraints:</strong></span></span><br><span style="font-size: 18px;"><span style="font-family: arial,helvetica,sans-serif;">1 ≤ arr.size() ≤ 10<sup>3</sup></span><br><span style="font-family: arial,helvetica,sans-serif;">1 ≤ arr[i] ≤ 10<sup>3</sup></span></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Mathematical</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
