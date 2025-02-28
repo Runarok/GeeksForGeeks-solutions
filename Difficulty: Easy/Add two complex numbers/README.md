@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/add-two-complex-numbers/1?page=2&status=unsolved,attempted&sortBy=accuracy">Add two complex numbers</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">In this problem, you need to add 2 given complex numbers and return the resulting complex number to the function add().</span></p>
+<blockquote>
+<p><span style="font-size: 18px;">A&nbsp;struct named <strong>Complex </strong>containing data members as real and imaginary part of the complex number is implemented already.</span></p>
+</blockquote>
+<p><span style="font-size: 18px;"><strong>Example :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong><span style="font-size: 18px;">Input:</span> </strong></span><span style="font-size: 18px;">c1 = 3+6i, c2 = -1+4i</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">2 + 10i<br><strong>Explanation: </strong>Real value is 3-1= 4. And imaginary value is 6+4= 10.<br></span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;<code>Data Structures</code>&nbsp;
