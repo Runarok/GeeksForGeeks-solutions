@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximum-size-of-consecutives3154/1?page=5&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Maximum size of consecutives</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 12pt;">Given a sorted array <strong>arr</strong> of <strong>n</strong> distinct elements and an integer <strong>k</strong>. The array elements denote the positions of points on the 1-D number line and find the maximum size of a subset of points that can have consecutive values of points formed by placing another <strong>k</strong> points on the number line.</span></p>
+<p><span style="font-size: 12pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 12pt;"><strong>Input: </strong>arr[] = [1, 2, 3, 4, 10, 11, 14, 15], k = 4
+<strong>Output:</strong> 8
+<strong>Explanation: </strong>For the maximum size subset, it is optimal to place the points on the number line at coordinates 12, 13, 16, and 17, so that the size of the consecutive valued subset will become 8 which will be maximum.</span></pre>
+<pre><span style="font-size: 12pt;"><strong>Input: </strong>arr[] = [7, 8, 12, 13, 15, 18], k = 5
+<strong>Output:</strong> 10
+<strong>Explanation: </strong>For maximum size subset, it is optimal to place the points on number line at coordinates 9, 10, 11, 14 and 16, so that the size of the consecutive valued subset will become 10 which will be maximum .</span></pre>
+<p><span style="font-size: 12pt;"><strong>Expected Time Complexity:</strong>&nbsp;O(n)<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1)</span></p>
+<p><span style="font-size: 12pt;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>6</sup><br>1 &lt;= k &lt;= 10<sup>5</sup><br>1 &lt;= arr[i] &lt;= 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
