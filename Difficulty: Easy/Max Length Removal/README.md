@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/max-length-removal0452/1?page=3&category=Strings&status=unsolved,attempted&sortBy=accuracy">Max Length Removal</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given a binary string <code>S</code> consisting of only characters '0' and '1'. You can repeatedly delete any occurrence of the sub-string "100" from <code>S</code>. Your task is to determine the length of the longest continuous sub-string that can be completely removed by applying this deletion operation.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>s = "1011100000100"
+<strong>Output: </strong>6
+<strong>Explanation: <br></strong>The sub-strings that can be removed are highlighted as: <code>101{110000}0{100}</code>.</span><br><span style="font-size: 14pt;">First, we can remove the sub-string "110000" by transforming it into "100" and then further removing "100", leaving the string "1010" (length = 6 removed).</span><br><span style="font-size: 14pt;">Then, we can remove the next "100" (length = 3 removed).</span><br><span style="font-size: 14pt;">The longest removable sub-string is "110000", and its length is 6.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>s = "111011"
+<strong>Output: </strong>0
+<strong>Explanation: </strong>There is no sub-string which can be make null.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity: </strong>O(n)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ string length ≤ 10<sup>6</sup><br>s[i] = {0, 1}</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Strings</code>&nbsp;<code>Data Structures</code>&nbsp;
