@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/smallest-sub-array-with-all-occurences-of-most-frequent-element0020/1?page=3&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Smallest sub-array with all occurences of most frequent element</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong>. Let x be an element in the array with the maximum frequency. The task is to find the smallest sub-segment of the array with x as the maximum frequency element.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong> If two or more elements have the same frequency (i.e., maximum frequency) and the same sub-segment size then print the sub-segment<strong> </strong>which occurs first in the array.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span>&nbsp;</p>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> arr[] = [1, 2, 2, 3, 1]
+<strong>Output :</strong> [2, 2]
+<strong>Explanation: </strong>Note that there are two elements that appear two times, 1 and 2.The smallest window for 1 is whole array and smallest window for 2 is {2, 2}. Since window for 2 is smaller, this is our output.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input :</strong> arr[] = [1, 4, 3, 3, 5, 5]<strong>
+Output :</strong> [3, 3] <br><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation: </strong>Note that there are two elements that appear two times, </span><span style="font-size: 14pt;">3 and 5. {3,3} appears first in the array.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>1 ≤ arr[i] ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
