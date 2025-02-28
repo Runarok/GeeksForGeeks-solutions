@@ -1,71 +1,77 @@
 //{ Driver Code Starts
-// Initial Template for javascript
+//Initial Template for javascript
 
-'use strict';
+"use strict";
 
 process.stdin.resume();
-process.stdin.setEncoding('utf-8');
+process.stdin.setEncoding("utf-8");
 
-let inputString = '';
+let inputString = "";
 let currentLine = 0;
 
-process.stdin.on('data', inputStdin => { inputString += inputStdin; });
-
-process.stdin.on('end', () => {
-    inputString = inputString.trim().split('\n').map(string => string.trim());
-    main();
+process.stdin.on("data", (inputStdin) => {
+  inputString += inputStdin;
 });
 
-function readLine() { return inputString[currentLine++]; }
+process.stdin.on("end", (_) => {
+  inputString = inputString
+    .trim()
+    .split("\n")
+    .map((string) => {
+      return string.trim();
+    });
 
-// Position this line where user code will be pasted.
+  main();
+});
 
-function main() {
-    let t = parseInt(readLine());
-    for (let i = 0; i < t; i++) {
-        let n = parseInt(readLine());
-
-        let obj = new Solution();
-        let ans = obj.reverseBits(n);
-        let stringans = '';
-        // print 32 bit ans in binary format
-        for (let i = 31; i >= 0; i--) {
-            stringans += ((ans & 1) ? '1' : '0');
-            ans = ans >> 1;
-        }
-        // print reverse string ans js return 32 bit number in reverse form for some
-        // reason
-        for (let i = 31; i >= 0; i--) {
-            process.stdout.write(stringans[i]);
-        }
-        process.stdout.write('\n');
-        console.log('~');
-    }
+function readLine() {
+  return inputString[currentLine++];
 }
 
+/* Function to print an array */
+function printArray(arr, size) {
+  let i;
+  let s = "";
+  for (i = 0; i < size; i++) {
+    s += arr[i] + " ";
+  }
+  console.log(s);
+}
+
+function main() {
+  let t = parseInt(readLine());
+  let i = 0;
+  for (; i < t; i++) {
+    let input1 = readLine().split(" ").map((x)=>parseInt(x));
+    let N = input1[0];
+    let obj = new Solution();
+    let res = obj.reverseBits(N);
+    console.log(res);
+  
+console.log("~");
+}
+}
 // } Driver Code Ends
 
 // User function Template for javascript
+
 /**
- * @param {number} n - The 32-bit unsigned integer whose bits are to be reversed.
- * @return {number} - The 32-bit unsigned integer with its bits reversed.
+ * @param {number} N
+ * @return {number}
  */
+
 class Solution {
-    reverseBits(n) {
-        let reversedBits = 0; // To store the result of the reversed bits.
+    reverseBits(N) {
+        // Convert the number to a binary string
+        let binary = N.toString(2);
         
-        // Loop through all 32 bits of the input integer.
-        for (let i = 0; i < 32; i++) {
-            reversedBits <<= 1; // Shift the result to the left by 1 bit to make space for the next bit.
-            
-            // Extract the least significant bit from the current number and add it to the result.
-            reversedBits |= (n & 1);
-            
-            // Right shift the input number by 1 to process the next bit in the next iteration.
-            n >>= 1;
-        }
+        // Reverse the binary string
+        let reverse = binary.split('').reverse().join('');
         
-        // Return the result as an unsigned 32-bit integer.
-        return reversedBits >>> 0;
+        // Convert the reversed binary string back to a decimal number
+        let deci = parseInt(reverse, 2);
+        
+        // Return the decimal value of the reversed binary
+        return deci;
     }
 }
