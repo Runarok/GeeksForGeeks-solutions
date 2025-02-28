@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/largest-fibonacci-subsequence2206/1?page=3&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Largest Fibonacci Subsequence</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr</strong> with positive integers, the task is to find the largest subsequence from the array which contains only <a href="http://www.geeksforgeeks.org/program-for-nth-fibonacci-number/">Fibonacci numbers</a>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [1, 4, 3, 9, 10, 13, 7]
+<strong>Output:</strong> [1, 3, 13]
+<strong>Explanation:</strong> The output three numbers are Fibonacci numbers.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [0, 2, 8, 5, 2, 1, 4, 13, 23]
+<strong>Output:</strong> [0, 2, 8, 5, 2, 1, 13]<br><strong>Explanation: </strong></span><span style="font-size: 14pt;">The output seven numbers are Fibonacci numbers.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1&lt;= arr.size() &lt;=10<sup>5</sup><br>1&lt;= arr[i] &lt;=10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Facebook</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;<code>Fibonacci</code>&nbsp;<code>Data Structures</code>&nbsp;
