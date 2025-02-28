@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/compute-ab/1?page=1&status=unsolved,attempted&sortBy=accuracy">Compute a/b</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given two integers&nbsp;<strong>a</strong>&nbsp;and&nbsp;<strong>b</strong>. Find the value of&nbsp;<strong>a/b</strong>, where&nbsp;<strong>b</strong> is not equal to zero. After computation, print the value. The answer should be in <strong>double</strong>&nbsp;format with precise values.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> a = 5, b = 2<br><strong>Output:</strong> 2.5</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> a = 4, b = 4<br></span><span style="font-size: 14pt;"><strong>Output:</strong> 1.0</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>-10<sup>3</sup>&nbsp;≤ a, b&nbsp;≤ 10<sup>3</sup><br>b != 0</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
