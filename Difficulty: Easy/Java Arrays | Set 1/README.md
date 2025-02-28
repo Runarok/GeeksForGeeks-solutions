@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/java-arrays-set-11354/1?page=1&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Java Arrays | Set 1</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an array <strong>arr[]</strong> containing the prices of items, your task is to calculate the average of all prices, rounded to <strong>two decimal</strong> places.</span><br><span style="font-size: 14pt;"><strong>Note:</strong>&nbsp; Return the <strong>average </strong>of all the items as a<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;</span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">String</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">.</span></span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 2, 3, 4, 5]
+<strong>Output: </strong>3.00 
+<strong>Explanation: </strong>Sum of the array is 15, hence average is 15/5=3.00. </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [2, 55, 85, 656, 52, 554, 545, 5, 2]
+<strong>Output: </strong>217.33 </span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Sum of the array is 1956, hence average is 1956/9= 217.33.</span>&nbsp;
+</pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1&lt;=arr.size()&lt;=100<br>1&lt;=arr[i]&lt;=1000</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Java</code>&nbsp;<code>Data Structures</code>&nbsp;
