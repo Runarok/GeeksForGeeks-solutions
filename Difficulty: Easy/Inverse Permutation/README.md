@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/inverse-permutation0344/1?page=2&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Inverse Permutation</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong> containing integers in the range from 1 to n, we need to find the inverse permutation of that array.<br><strong>Inverse Permutation</strong> is a permutation that you will get by inserting the position of an element at the position specified by the element value in the array. For a better understanding, consider the following example:<br>Suppose we found element 4 at position 3 in an array, then in reverse permutation, we insert 3 (position of element 4 in the array) in position 4 (element value).</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 4, 3, 2]
+<strong>Output: </strong>[1, 4, 3, 2]
+<strong>Explanation: </strong>For element 1 we insert position of 1 from arr1 i.e 1 at position 1 in arr2. For element 4 in arr1, we insert 2 from arr1 at position 4 in arr2. Similarly, for element 2 in arr1,we insert position of 2 i.e 4 in arr2.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [2, 3, 4, 5, 1]
+<strong>Output: </strong>[5, 1, 2, 3, 4]
+<strong>Explanation: </strong>As index 1 has value 2 so 1 will be placed at index 2, similarly 2 has 3 so 2 will be placed at index 3 similarly 3 has 4 so placed at 4, 4 has 5 so 4 placed at 5 and 5  has 1 so placed at index 1. </span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>1 ≤ arr[i] ≤ n<br></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
