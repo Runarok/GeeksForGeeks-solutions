@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/back-to-front/1?page=1&status=unsolved,attempted&sortBy=accuracy">Back to Front</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given two&nbsp;iterators <strong>it1</strong> and <strong>it2 </strong>that points to the front and end of the vector<strong>&nbsp;</strong>of positive integers respectively. Your task is to print the vector elements in <strong>reverse </strong>order.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples : </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [1, 2, 3, 4, 5]
+<strong>Output: </strong>5 4 3 2 1</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr[i] &lt;= 10<sup>7</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
