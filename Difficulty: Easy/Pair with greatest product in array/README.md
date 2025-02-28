@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/pair-with-greatest-product-in-array3342/1?page=2&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Pair with greatest product in array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an array <code>arr[]</code> of positive integers, the task is to find the largest element in the array that can be expressed as the product of two elements from the array. The two elements forming the product must be at different indices.</span></p>
+<p><span style="font-size: 14pt;">If no such element exists, return <code>-1</code>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [10, 3, 5, 30, 35]
+<strong>Output:</strong> 30
+<strong>Explanation:</strong> 30 is the product of 10 and 3.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [10, 2, 4, 30, 35]
+<strong>Output: </strong>-1</span><br><span style="font-size: 14pt;"><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation:</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> Since, no such element exists.</span></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [10, 2, 2, 4, 8, 30, 35]
+<strong>Output:</strong> 8<br><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation:</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">  8 is the product of 4 and 2.</span></span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(n * sqrt(max(arr[i])))<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>5</sup><br>1 ≤ arr[i] ≤ 10<sup>9</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Linkedin</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
