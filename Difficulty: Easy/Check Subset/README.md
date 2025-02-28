@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/check-subset--164700/1?page=3&status=unsolved,attempted&sortBy=accuracy">Check Subset</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two sets <strong>a</strong> and <strong>b</strong>.<strong>&nbsp;</strong>check whether <strong>a</strong> is subset of <strong>b</strong> ?</span></p>
+<p><span style="font-size: 18px;"><strong>a</strong> is subset of <strong>b</strong>, if all elements of a set <strong>a</strong> are present in another set <strong>b</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: a = [1, 4, 3], b = [1, 4, 3, 2]
+<strong>Output:</strong> True</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>python-set</code>&nbsp;<code>subset</code>&nbsp;
