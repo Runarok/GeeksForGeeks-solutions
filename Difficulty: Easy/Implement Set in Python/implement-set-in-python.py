@@ -7,26 +7,24 @@
 # User function Template for python3
 
 # Function to insert an element into the set
-# No return value and no print statement
+# No return should be there, and no print statement
 def insert(s, element):
-    # Add the element to the set
+    # Insert the element into the set
     s.add(element)
 
 # Function to remove an element from the set
-# No return value and no print statement
+# No return and nothing to print
 def remove_from_set(s, element):
     # Remove the element from the set
     s.remove(element)
 
 # Function to find the sum of elements in the set
-# Return the sum of elements in the set
+# Return value should be the sum of the elements
 def sum_set(s):
     # Calculate the sum of all elements in the set
-    total = 0
-    for i in s:
-        total += i
-    return total
- 
+    total_sum = sum(s)
+    return total_sum
+
 
 
 #{ 
