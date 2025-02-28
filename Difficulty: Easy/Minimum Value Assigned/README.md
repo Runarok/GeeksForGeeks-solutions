@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-value-assigned0918/1?page=3&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Minimum Value Assigned</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 12pt;">Given an array, <strong>arr</strong>[], Geek wants to assign a value to each array element. The minimum value that can be assigned to an element is 1. For every pair of adjacent elements, the one with the higher integral value should be assigned a higher value. Help Geek assign the smallest possible value to each element and return the sum of the values which is the minimum possible.</span></p>
+<p><span style="font-size: 12pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 12pt;"><strong>Input: </strong>arr[] = [1, 2, 3, 4]
+<strong>Output:</strong> 10
+<strong>Explanation: </strong>The first element is assigned value 1. The second element is assigned value 2 because arr[1]&gt;arr[0]. The third element is assigned value 3 because arr[2]&gt;arr[1]. Fourth element is assigned value 4 because arr[3]&gt;arr[2]. 1+2+3+4 =10.</span></pre>
+<pre><span style="font-size: 12pt;"><strong>Input: </strong>arr[] = [2, 4, 4]
+<strong>Output:</strong> 4
+<strong>Explaination: </strong>First element is assigned value 1. Second element is assigned value 2 because arr[1]&gt;arr[0]. Third element is assigned value 1 because arr[2] is equal to arr[1]. 1+2+1 = 4.</span></pre>
+<p><span style="font-size: 12pt;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 12pt;"><strong>Constraints:</strong><br>1 ≤ arr.size ≤ 10<sup>6</sup><br>1 ≤ arr[i] ≤ 10<sup>5</sup> &nbsp;</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
