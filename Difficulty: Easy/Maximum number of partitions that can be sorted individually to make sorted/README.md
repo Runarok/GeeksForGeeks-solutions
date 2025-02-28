@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximum-number-of-partitions-that-can-be-sorted-individually-to-make-sorted2926/1?page=3&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Maximum number of partitions that can be sorted individually to make sorted</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array<strong> arr</strong><strong>&nbsp;</strong>such that elements are in range<strong> </strong>[0, 1, ....n-1]. Our task is to divide the array into the maximum number of partitions that can be sorted individually and then concatenated to make the whole array sorted. </span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [2, 1, 0, 3]
+<strong>Output:</strong> 2
+<strong>Explanation: </strong>If divide arr[] into two partitions [2, 1, 0] and [3], sort then and concatenate then, we get the whole array sorted.
+</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [2, 1, 0, 3, 4, 5] <strong>
+Output:</strong> 4 <br><strong>Explanation: </strong></span><span style="font-size: 14pt;">If divide arr[] into two partitions [2, 1, 0], [3], [4], [5] sort then and concatenate then, we get the whole array sorted.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n).<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><sup><br></sup>1 ≤ arr[i] ≤ 10<sup>5</sup><sup><br></sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Sorting</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
