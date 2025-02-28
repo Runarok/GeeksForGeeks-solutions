@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/factorial-of-biginteger/1?page=2&status=unsolved,attempted&sortBy=accuracy">Factorial of BigInteger</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given one integer <strong>n</strong>. Your task is to find factorial of n. You have to return value of factorial n in <strong>BigInteger</strong>.</span></p>
+<p><strong><span style="font-size: 18px;">Example:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 10 </span>
+<span style="font-size: 18px;"><strong>Output: </strong>3628800</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Factorial of n is 3628800.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input:</span></strong><span style="font-size: 18px;"> n = 5<br></span><strong><span style="font-size: 18px;">Output:</span></strong><span style="font-size: 18px;"> 120<br></span><strong><span style="font-size: 18px;">Explanation:</span></strong><span style="font-size: 18px;"> Factorial of n is 120.</span></pre>
+<p><strong><span style="font-size: 18px;">Constraints:</span></strong><span style="font-size: 18px;">&nbsp;<br></span><span style="font-size: 18px;">1 &nbsp;&lt;= &nbsp;n &nbsp;&lt;= &nbsp;100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java-BigInteger</code>&nbsp;<code>Java</code>&nbsp;
