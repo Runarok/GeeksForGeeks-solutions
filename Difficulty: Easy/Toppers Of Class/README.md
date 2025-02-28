@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/toppers-of-class3826/1?page=1&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Toppers Of Class</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">There is a class of some students and the task is to find the top <strong>k</strong> marks scorers. You need to print the index of the class's toppers, which will be the same as the student's index in the input array (use 0-based indexing). First, return the index of the students having the highest marks then the students with second highest and so on. If more than one student has the same marks then return their indices in ascending order. Suppose k = 2 and the students having the highest marks have indices 0 and 5 and students having second highest marks have indices 6 and 7 then output will be 0 5 6 7.</span></p>
+<p><span style="font-size: 18px;"><strong>Note</strong>: here <strong>k</strong> will be always less than equal to the number of distinct elements in marks of students <strong>arr[]</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [2, 2, 1, 3, 1], k = 3 
+<strong>Output:</strong> [3, 0, 1, 2, 4]
+<strong>Explanation</strong>: Topper with 3 marks is present at 3rd index, 2 marks is present at 0<sup>th</sup> index and next at 1<sup>st</sup> index. 1 marks is present at 2 and 4.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3, 4], k = 1 
+<strong>Output: </strong>[3]
+<strong>Explanation</strong>: The highest marks is at index 3.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>1 ≤ k ≤ 10<sup>6<br></sup>1 ≤ arr[i] ≤ 10<sup>8</sup><sup><br></sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>D-E-Shaw</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Sorting</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
