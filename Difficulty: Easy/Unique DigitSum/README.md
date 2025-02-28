@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/lucky-ishaan0443/1?page=2&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Unique DigitSum</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given an array of integers <strong>arr[]</strong>, You have to find the total unique sums of digits of elements in array <strong>arr[]</strong>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [123, 42, 45, 78, 12345]
+<strong>Output :</strong> 3
+<strong>Explanation: </strong>Sum of digits of elements of arrays are respectively 6, 6, 9, 15, 15 so total 3 unique sums.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [1, 2, 1] 
+<strong>Output:</strong> 2<br><strong>Explanation: </strong>Sum of digits of elements of arrays are respectively 1, 2, 1 so total 2 unique sums.<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> </strong></span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(n * log10(arr[i])).<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1).</span><br><br><span style="font-size: 14pt;"><strong>Constraints :</strong><br>1 ≤ arr.size() ≤ 10<sup>5</sup><br>1 ≤ arr[i] ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
