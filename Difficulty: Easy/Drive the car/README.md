@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/drive-the-car2541/1?page=1&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Drive the car</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are a car driver tasked with driving on a track divided into sub-tracks. The car can travel "k" kilometers on each sub-track. If the car can't cover a sub-track, you can add petrol, with each unit increasing the car's range by one kilometer. Return the <strong>minimum units of petrol</strong> needed for the car to cover all sub-tracks. If no extra petrol is required, return<strong> -1</strong>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [2, 5, 4, 5, 2], k = 7
+<strong>Output: </strong>-1
+<strong>Explanation: </strong>No extra petrol required, as k is greater than all the elemnts in the array hence <strong>-1</strong>.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 6, 3, 5, 2], k = 4
+<strong>Output: </strong>2
+<strong>Explanation: </strong>You are given 5 sub-tracks with different kilometers. Your car can travel 4 km on each sub-track. So, when you come on sub-track 2nd you have to cover 6 km of distance, so you need to have 2 unit of petrol more to cover the distance, for 3rd sub-track, your car can travel 4km  and you need extra 1 unit of pertrol.So if you add 2 units of petrol at each sub-track you can cover all the subtracks.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup></span><br><span style="font-size: 14pt;">1 ≤ k ≤ 10<sup>6</sup><br>1 ≤ arr[i] ≤ 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
