@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/do-while-loop/1?page=1&status=unsolved,attempted&sortBy=accuracy">Do - While Loop</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p>Given an integer&nbsp;<strong>n</strong>. Print string <strong>"Geeksforgeeks"&nbsp;</strong>n times but a minimum of 1 time using a <strong>do-while</strong> loop.<br>Note: n can be less than 0.</p>
+<p><strong>Examples:</strong></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> 3<br><strong>Output: <br></strong>Geeksforgeeks<br>Geeksforgeeks<br>Geeksforgeeks<strong><br>Explanation: </strong>Printed "Geeksforgeeks" 3 times.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> -1<br><strong>Output: <br></strong>Geeksforgeeks<strong><br>Explanation: </strong>Printed "Geeksforgeeks" 1 times compulsory.</span></pre>
+<p><strong><span style="font-size: 14pt;">Constraints:<br></span></strong><span style="font-size: 14pt;">-1000 &nbsp;&lt; &nbsp;n &nbsp;&lt; &nbsp;1000</span></p></div>
