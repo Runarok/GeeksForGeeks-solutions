@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/numbers-with-prime-frequencies-greater-than-or-equal-to-k5823/1?page=2&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Numbers with prime frequencies greater than or equal to k</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an array <strong>arr</strong>. You need to find elements that appear a prime number of times in the array with minimum <strong>k</strong> frequency (frequency &gt;= k).</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [11, 11, 11, 23, 11, 37, 51, 37, 37, 51, 51, 51, 51], k = 2
+<strong>Output:</strong> [37, 51]
+<strong>Explanation: </strong>11's count is 4, 23 count 1, 37 count 3, 51 count 5. 37 and 51 are two number that appear prime number of time and frequencies greater than or equal to k = 2.
+</span></pre>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong><span style="font-size: 18px;"> arr[] = [11, 22, 33] </span><strong style="font-size: 18px;">
+Output:</strong><span style="font-size: 18px;"> []<br><strong>Explanation:</strong> In the array, the counts of elements are: 11 (1 time), 22 (1 time), 33 (1 time). None of these counts are prime numbers, so the output is an empty list.<br></span></span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n*sqrt(n)).<br><strong>Expected Auxiliary Space:</strong> O(n).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>4</sup><br>1 ≤ arr[i] ≤ 10<sup>6<br></sup>1 ≤ k ≤ 100<br></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;<code>Data Structures</code>&nbsp;
