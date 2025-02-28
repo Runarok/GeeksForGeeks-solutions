@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/query-and-array4947/1?page=5&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Query and Array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array of integers <strong>arr</strong> and a query integer <strong>k</strong>. Find the number <strong>X</strong>&nbsp;from&nbsp;the array&nbsp;<span style="box-sizing: border-box; margin: 0px; padding: 0px;">so that it can be converted from <strong>k</strong> to&nbsp;<strong>X</strong> and</span>&nbsp;<strong>F(k, X)</strong> is minimum. </span><span style="font-size: 18px;"><strong>F(A, B)</strong> = Number of bits flipped to change the number <strong>A</strong> to <strong>B</strong>. </span><span style="font-size: 18px;">If there is more than one value in <strong>arr</strong>&nbsp;such that <strong>F(k, X)</strong> is minimum print the smallest value of <strong>X</strong> for which <strong>F(k, X)</strong> is minimum.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [5, 32, 1, 7, 10, 50, 19, 21, 2] and k = 1
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> F(1, 1) = 0, so this is the minimum X.
+</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [5, 32, 10, 7, 10, 50, 19, 21, 2] and k = 8
+<strong>Output:</strong> 10
+<strong>Explanation: </strong></span><span style="font-size: 14pt;">F(8, 10) = 1, so this is the minimum X.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong>&nbsp;O(n*logn)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>5</sup><br>1 &lt;= k &lt;= 10<sup>6</sup><br>1 &lt;= arr[i] &lt;= 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Bit Magic</code>&nbsp;<code>Data Structures</code>&nbsp;
