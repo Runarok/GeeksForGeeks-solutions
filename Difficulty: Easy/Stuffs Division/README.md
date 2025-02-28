@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/stuffs-division5735/1?page=3&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Stuffs Division</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an array <strong>arr[]</strong> where each element represents the amount of goodies currently held by students. Each student at index <strong>i</strong>&nbsp;should receive exactly <strong>i</strong>&nbsp;amount of goodies (1-based indexing) for a fair distribution, with no wastage allowed. </span><span style="font-size: 18px;">Your task is to determine whether it is possible to redistribute the goodies such that the student at index i gets exactly i amount of goodies. Return true if it is possible otherwise return false.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [7, 4, 1, 1, 2]
+<strong>Output: </strong>true
+<strong>Explanation: </strong>Since, all the goods can be redistributed as 1 2 3 4 5 (i<sup>th</sup> students get i number of goodies).So, output is true.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [1, 1, 1, 1, 1]
+<strong>Output: </strong>false<br></span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>6</sup><br>1 &lt;= arr[i] &lt;= 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Mathematical</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
