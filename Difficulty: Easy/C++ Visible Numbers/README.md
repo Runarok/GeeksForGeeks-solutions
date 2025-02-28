@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/c-visible-numbers5542/1?page=1&category=Arrays&status=unsolved,attempted&sortBy=accuracy">C++ Visible Numbers</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an array <strong>nums[]</strong> of integers, find all the numbers that occur more than one-third times the array size in the array. If no element meets the criteria, return -1 in an array.</span></p>
+<h3><span style="font-size: 14pt;">Examples:</span></h3>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>nums = [2, 1, 5, 5, 5, 5, 6, 6, 6, 6, 6]
+<strong>Output: </strong>[5, 6]<br><strong>Explanation:</strong> 5 and 6 occur more than n/3 times.<br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>nums = [1, 2, 3, 4, 5]
+<strong>Output: </strong>[-1]</span><br><span style="font-size: 14pt;"><strong>Explanation: </strong>no candidate occur more than n/3 times.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;=&nbsp; nums.size()&nbsp; &lt;= 10<sup>6</sup></span><br style="font-size: 18px;"><span style="font-size: 14pt;">-10<sup>9</sup>&nbsp;&lt;= nums[i] &lt;= 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>CPP</code>&nbsp;<code>Data Structures</code>&nbsp;
