@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/middle-swap/1?page=1&status=unsolved,attempted&sortBy=accuracy">Middle swap</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given a 4x4 matrix containing integers. Your task is to modify this matrix by swapping its middle rows and middle columns. Specifically:</span></p>
+<ul>
+<li><span style="font-size: 14pt;">Swap the 2nd row with the 3rd row.</span></li>
+<li><span style="font-size: 14pt;">Swap the 2nd column with the 3rd column.</span></li>
+</ul>
+<p><strong><span style="font-size: 14pt;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 14pt;">Input: </span></strong><span style="font-size: 14pt;">arr[][]=[[1, 2, 3, 4], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]<br><strong>Output: </strong>arr[][]= [[1, 3, 2, 4], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]<br><strong>Explanation: </strong>Swap the 2nd and 3rd row. then Swap the 2nd and 3rd column.</span></pre>
+<pre><strong><span style="font-size: 14pt;">Input: </span></strong><span style="font-size: 14pt;">arr[][]=[[0, 1, 4, 4], [12, 5, 14, 12], [20, 20, 21, 20], [1, 6, 8, 9]]<br><strong>Output: </strong>arr[][]= [[0, 4, 1, 4], [20, 21, 20, 20], [12, 14, 5, 12], [1, 8, 6, 9]]<br><strong>Explanation: </strong>Swap the 2nd and 3rd row. then Swap the 2nd and 3rd column.</span></pre></div>
