@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/ticket-sellers3241/1?page=3&category=Arrays&status=unsolved,attempted&sortBy=accuracy">Ticket sellers</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an array <strong>arr[]</strong> of ticket sellers where the <strong>ith</strong> ticket seller has <strong>arr[i]</strong> tickets. </span><span style="font-size: 18px;">The price of a ticket is the number of tickets remaining with the ticket seller. They are allowed to sell at most <strong>k</strong> tickets. Find the maximum amount they can earn by selling <strong>k</strong>&nbsp;tickets. </span><span style="font-size: 18px;">The amount of tickets of each seller is provided in array <strong>arr[]</strong>. Give the answer modulo <strong>10<sup>9</sup>&nbsp;+ 7.</strong></span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [4, 3, 6, 2, 4] , k=3
+<strong>Output:</strong> 15
+<strong>Explaination:</strong> Consider 0 based indexing. For first two turns the 2nd seller sells. For the third turn either 0th or 2nd seller can sell. So the total becomes 6 + 5 + 4 = 15.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [5, 3, 5, 2, 4, 4] , k=2
+<strong>Output:</strong> 10
+<strong>Explaination:</strong> The turns are taken by 0th and 2nd seller. 5 + 5 = 10 is the maximum amount.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(nlogn)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>5</sup><br>1 ≤ arr[i], k ≤ 10<sup>6</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>BankBazaar</code>&nbsp;<code>Linkedin</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
