@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/comparator-sort-coordinates/1?page=1&status=unsolved,attempted&sortBy=accuracy">Comparator Sort Coordinates</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an array <strong>arr[] </strong>of n <strong>coordinates.</strong> These coordinates are objects of the class Point and contain x and y. You need to sort the<strong>&nbsp;</strong>array by <strong>increasing </strong>order of x, and if two x are <strong>same </strong>then sort by increasing order of y.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [[1, 2], [3, 4], [5, 6], [7, 8], [9, 0]]</span>
+<strong><span style="font-size: 18px;">Output:</span> </strong><span style="font-size: 18px;">(1,2) (3,4) (5,6) (7,8) (9,0)</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Sort it in increasing order of x, and if two x are same then sort in increasing order of y. So, by following the logic we get (1,2) (3,4) (5,6) (7,8) (9,0)</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [[1, 2], [1, 9], [1, 0], [1, 1]]</span>
+<span style="font-size: 18px;"><strong>Output: </strong></span><span style="font-size: 18px;">(1,0) (1,1) (1,2) (1,9)</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Sort it in increasing order of x, and if two x are same then sort in increasing order of y. Here we see that x are same for all the coordinates so we sort in increasing order of y. Hence we get (1,0) (1,1) (1,2) (1,9).</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.length &lt;= 10<sup>3</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;<code>Java-Collections</code>&nbsp;
