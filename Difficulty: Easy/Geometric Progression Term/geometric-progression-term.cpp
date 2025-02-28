@@ -1,29 +1,38 @@
 //{ Driver Code Starts
+//Initial Template for C++
+
+#include <bits/stdc++.h>
+using namespace std;
+
 
 // } Driver Code Ends
 
-#include <iostream>
-#include <cmath>
-using namespace std;
+void utility(int a, int r, int n) {
+    // Calculate the value of r raised to the power of (n-1)
+    int x = pow(r, n - 1);
+    
+    // Calculate the nth term of a geometric progression
+    int ans = a * x;
 
-int main() {
-    // Read the first term (a) and number of terms (n) from user input
-    int firstTerm, numTerms;
-    cin >> firstTerm >> numTerms;
-
-    // Common ratio for geometric progression
-    int commonRatio = 2;
-
-    // Calculate the nth term of the geometric progression
-    int nthTerm = firstTerm * pow(commonRatio, numTerms - 1);
-
-    // Print the result
-    cout << nthTerm << endl;
-
-    return 0;
+    // Output the result
+    cout << ans << endl;
 }
 
 
-//{ Driver Code Starts.
 
+//{ Driver Code Starts.
+    
+int main() {
+	
+	int t; cin>>t;
+	while(t-- > 0) {
+        int a, n;
+        cin>>a>>n;
+        int r = 2;
+        utility(a, r, n);
+    
+cout << "~" << "\n";
+}
+	
+}
 // } Driver Code Ends
