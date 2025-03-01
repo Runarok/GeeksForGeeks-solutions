@@ -1,11 +1,7 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/even-odd-game--153136/1?page=3&status=unsolved,attempted&sortBy=accuracy">Even Odd Game</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a number <strong>n</strong>, number of apples in a bag. You and your friend are picking one apple turnwise from the bag. It is given that the first attempt is always by you. The person picking the last apple will be the winner.&nbsp;</span></p>
-<ul>
-<li><span style="font-size: 18px;">If you will win: print <strong>"You" </strong>(without quotes)</span></li>
-<li><span style="font-size: 18px;">If your friend will win: print <strong>"Friend" </strong>(without quotes)</span></li>
-</ul>
+<h2><a href="https://www.geeksforgeeks.org/problems/even-odd-game/1?page=2&status=unsolved&sortBy=accuracy">Even Odd Game</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a number, represents number of apples in a bag. You and your friend are playing a game. Both of you are picking one apple turn wise from the bag. It is given&nbsp;that&nbsp;first attempt is always by you. The person picking the last apple will be the winner. Find out the winner if the quantity&nbsp;of apples is given to you&nbsp;as a number.<br>If you will win: return <strong>"You" </strong>(without quotes)<br>If your friend will win: return <strong>"Friend" </strong>(without quotes)</span></p>
 <p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input</strong>: n = 9
 <strong>Output:</strong> You</span></pre>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>n = 4
 <strong>Output: </strong>Friend</span></pre>
-<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;<code>Java</code>&nbsp;<code>C</code>&nbsp;
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;<code>Java</code>&nbsp;
