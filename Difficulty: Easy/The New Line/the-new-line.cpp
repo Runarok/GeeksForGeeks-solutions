@@ -1,19 +1,30 @@
 //{ Driver Code Starts
-
-// } Driver Code Ends
+// Initial Template for C++
 
 #include <iostream>
 using namespace std;
 
-int main() {
-    // Print "Geeks for Geeks" in separate lines
-    cout << "Geeks" << endl;
-    cout << "for" << endl;
-    cout << "Geeks" << endl;
-    return 0;
+
+// } Driver Code Ends
+
+// User function Template for C++
+
+// Function to print each word in a new line
+void printNewLine()
+{
+    // Printing each word on a new line using endl
+    cout << "Geeks" << endl << "for" << endl << "Geeks";
+
+    // No additional code required here
 }
 
 
-
 //{ Driver Code Starts.
+
+int main() {
+
+    // function call
+    printNewLine();
+}
+
 // } Driver Code Ends
