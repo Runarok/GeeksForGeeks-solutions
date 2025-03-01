@@ -1,34 +1,42 @@
 //{ Driver Code Starts
+//Initial Template for Java
 
+import java.util.Scanner;
+
+class Main {
+    
+    
 // } Driver Code Ends
 
-// Back-end complete function Template for Java
-import java.util.*;
+// User function Template for Java
 
-public class Main {
-    public static void main(String args[]) {
-        // Scanner object to read user input
-        Scanner sc = new Scanner(System.in);
-        
-        // Read the value of n, the number of rows for the pattern
-        int n = sc.nextInt();
-        
-        // Outer loop to handle the number of rows (i)
-        int i = 1;
-        while (i <= n) {
-            // Inner loop to print the stars in each row (j)
-            int j = 1;
-            while (j <= i) {
-                System.out.print("*" + " ");  // Print a star with space
-                j++;  // Increment inner loop counter
-            }
-            i++;  // Increment outer loop counter to move to the next row
-            System.out.println();  // Move to the next line after each row of stars
+public static void triangleWall(int size) {
+    // Outer loop for each row
+    for (int row = 1; row <= size; row++) {
+        // Inner loop for printing '*' in each row
+        for (int col = 1; col <= row; col++) {
+            System.out.print("* ");
         }
+        // Move to the next line after each row
+        System.out.println();
     }
 }
 
 
 
 //{ Driver Code Starts.
+
+    public static void main(String[] args)
+    {
+        Scanner scn = new Scanner(System.in);
+        int t = scn.nextInt();
+        while(t-- > 0) {
+            int s = scn.nextInt();
+            triangleWall(s);
+        
+System.out.println("~");
+}
+        scn.close();
+    }
+}
 // } Driver Code Ends
