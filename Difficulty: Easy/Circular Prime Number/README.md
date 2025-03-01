@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/circular-prime-number0230/1?page=5&status=unsolved&sortBy=accuracy">Circular Prime Number</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-size: 18px; vertical-align: baseline; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px; background-color: #ffffff;">Find all circular primes less than given number <strong>n</strong>. A prime number is a&nbsp;</span><a style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-size: 18px; vertical-align: baseline; outline: none; display: inline; word-break: break-word; font-family: Nunito, sans-serif; letter-spacing: 0.162px; background-color: #ffffff;" href="https://en.wikipedia.org/wiki/Circular_prime" target="_blank" rel="noopener noreferrer nofollow"><strong style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;">Circular Prime Number&nbsp;</strong></a><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-size: 18px; vertical-align: baseline; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px; background-color: #ffffff;">if all of its possible rotations itself are prime numbers.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 4
+<strong>Output: </strong>[2, 3]
+<strong>Explanation: </strong>2 and 3 are the circuler prime number less than 4.</span>
+</pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 7
+</span><span style="font-size: 18px;"><strong>Output: </strong>[2, 3, 5]
+<strong>Explanation: </strong>2, 3 and 5 are the circuler prime number less than 7.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 5
+<strong>Output: </strong>[2, 3]
+<strong>Explanation: </strong>2 and 3 are the circuler prime number less than 5.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>2 &lt;= n &lt;= 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Prime Number</code>&nbsp;<code>Algorithms</code>&nbsp;
