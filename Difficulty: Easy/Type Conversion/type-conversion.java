@@ -1,24 +1,42 @@
 //{ Driver Code Starts
+//Initial Template for Java
 
-// } Driver Code Ends
+
 
 import java.io.*;
-import java.util.*;
 
-class GFG {
-    public static void main(String args[]) {
-        // Create scanner object to read input from the user
-        Scanner sc = new Scanner(System.in);
-        
-        // Read a double value from the user
-        double d = sc.nextDouble();
-        
-        // Typecast the double value to an integer and print it
-        int i = (int) d;
-        System.out.println(i);
-    }
+class GFG{
+    
+    
+// } Driver Code Ends
+
+// User function Template for Java
+
+// Function to typecast a double to an integer and return the result
+public static int typeCast(double d) {
+    return (int) d;
 }
 
 
+
 //{ Driver Code Starts.
+
+    
+    public static void main(String args[]) throws IOException{
+        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
+        
+        int t = Integer.parseInt(read.readLine());
+        
+        while(t-- > 0){
+            double d = Double.parseDouble(read.readLine());
+            
+            int answer = typeCast(d);
+            
+            System.out.println(answer);
+        
+System.out.println("~");
+}
+        
+    }
+}
 // } Driver Code Ends
