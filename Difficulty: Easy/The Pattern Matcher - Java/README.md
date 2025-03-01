@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/the-pattern-matcher-java/1?page=12&status=unsolved&sortBy=accuracy">The Pattern Matcher - Java</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given a string s of <strong>x</strong> and <strong>y</strong>. You need to verify whether the string follows the pattern <strong>x<sup>n</sup>y<sup>n</sup></strong>. That is the string is valid only if equal number of y's follow equal number of x's.<br>Return 1 if valid else 0.<br></span><span style="font-size: 18px;">As an example: <strong>xxyyxxyy</strong> is <strong>valid</strong>. <strong>xy</strong> is <strong>valid</strong>.<strong> xxyyx</strong> is <strong>invalid</strong>. <strong>xxxyyyxxyyxy</strong> is <strong>valid</strong>.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = xxyy
+<strong>Output: </strong>1</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> s = xyx
+<strong>Output: </strong>0</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= |s| &lt;=100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java-Strings</code>&nbsp;
