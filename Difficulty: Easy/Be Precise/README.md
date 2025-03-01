@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/be-precise--125634/1?page=7&status=unsolved&sortBy=accuracy">Be Precise</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">There are times when your answer is a floating point that contains undesired amount of digits after decimal. Here, we have<strong>&nbsp;</strong>to get a<strong> precise </strong>answer out of a floating number. You are given two floating numbers a and b. You need to output <strong>a/b</strong> with decimal precision of <strong>a/b</strong> upto <strong>3</strong> places after the decimal point.</span></p>
+<p><span style="font-size: 18px;"><strong>Note : </strong>Do not forget to print a new line ater printing the values.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> a = 5.43, b = 2.653
+<strong>Output:</strong> 2.047</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= a, b,&lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
