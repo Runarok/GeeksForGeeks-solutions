@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximum-among-left/1?page=1&status=unsolved&sortBy=accuracy">Maximum Among Left</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array<strong> arr[]</strong>. We need to return the <strong>indices</strong>&nbsp;such that arr[i] is strictly greater than all the <strong>elements </strong>from<strong> 0 to i-1</strong>.&nbsp;<br><strong>Note:</strong> The resultant list may be empty.</span></p>
+<p><span style="font-size: 18px;"><strong>Example : </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [4, 3, 5, 2, 6]
+<strong>Output: </strong>2 4
+<strong>Explanation:</strong>The given elements are&nbsp; {4, 3, 5, 2, 6}. 5 is greater than all elements to left (4 and 3). 6 is greater than all<br></span><span style="font-size: 18px;">elements to the left. So answer list contains indices of 5 and 6 <em>ie.</em>{2 4}<br></span></pre>
+<p><strong><span style="font-size: 18px;">Constraints:<br></span></strong><span style="font-size: 18px;">1&lt;= arr.size() &lt;= 10<sup>5</sup><br>1&lt;= arr[i] &lt;= 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
