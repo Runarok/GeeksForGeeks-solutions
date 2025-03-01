@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/almost-equal-java/1?page=12&status=unsolved&sortBy=accuracy">Almost Equal -Java</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two strings <strong>s1</strong> and <strong>s2</strong> consisting of only lowercase characters whose <a href="http://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/">anagrams </a>are almost equal.<br>The task is to count the number of characters which needs to be <strong>deleted</strong>&nbsp;to make s1 equal to s2.</span></p>
+<p><strong><span style="font-size: 18px;">Example 1:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s1 = "madame", s2 = "madam"</span>
+<span style="font-size: 18px;"><strong>Output: </strong>1</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>string s1 = madame, string s2 = madam. Character 'e' in </span><span style="font-size: 18px;">first string is need to be deleted to make S1 equal to S2.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s1 = "suryansh", s2 = "suryanshzzawesome"</span>
+<span style="font-size: 18px;"><strong>Output: </strong></span><span style="font-size: 18px;">9</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>string S1 = suryansh, string S2 = suryanshzzawesome. All character after "suryansh" in </span><span style="font-size: 18px;">second string are need to be deleted to make S1 equal to S2.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= s1, s2 &lt;= 10<sup>4</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java-Strings</code>&nbsp;
