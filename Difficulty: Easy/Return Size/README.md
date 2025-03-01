@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/return-size--141631/1?page=3&status=unsolved&sortBy=accuracy">Return Size</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a some variables in the C++ code<strong>&nbsp;</strong>you need to store the size of these variables into <strong>a, b, c </strong>integer variables.&nbsp;</span></p>
+<p><strong><span style="font-size: 18px;">Note:</span></strong><span style="font-size: 18px;">&nbsp; You just need to store the size into a, b, c variables only.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>None
+<strong>Output: </strong>4 8 1<br><strong>Explanation: </strong>printing the size of int, double, char datatype variables.<br></span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
