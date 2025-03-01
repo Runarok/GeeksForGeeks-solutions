@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/scientific-format--141631/1?page=3&status=unsolved&sortBy=accuracy">Scientific Format</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">There are times when your answer is a&nbsp;<strong>double</strong>&nbsp;data type and you want to show the same in scientific format. Here, we have<strong>&nbsp;</strong>to get a<strong>&nbsp;scientific&nbsp;</strong>format answer out of a double data type. You have to input&nbsp; <strong>a </strong>and need to output its scientific format upto 4 precision<strong>.</strong></span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> a = 5.43 
+<strong>Output: </strong>5.4300e+00</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= a &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
