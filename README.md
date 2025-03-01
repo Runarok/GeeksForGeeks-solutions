@@ -147,7 +147,7 @@ Since **GeeksforGeeks** regularly adds new questions, my progress may not be fix
       <td><a href="https://www.geeksforgeeks.org/explore?page=1&difficulty=Basic&sortBy=accuracy">Basic Difficulty</a> tagged problems.</td>
     </tr> 
 <tr>
-  <td>27 FEB 2024</td>
+  <td>27 FEB 2025</td>
   <td>Thursday</td>
   <td>
     <a href="https://www.geeksforgeeks.org/explore?page=1&company=Microsoft&sortBy=accuracy">Microsoft</a> and
@@ -155,14 +155,19 @@ Since **GeeksforGeeks** regularly adds new questions, my progress may not be fix
   </td>
 </tr>
 <tr>
-  <td>28 FEB 2024</td>
-  <td>Thursday</td>
+  <td>28 FEB 2025</td>
+  <td>Friday</td>
   <td>
     <a href="https://www.geeksforgeeks.org/explore?page=1&category=Strings&sortBy=accuracy">Strings</a> and
     <a href="https://www.geeksforgeeks.org/explore?page=1&category=Arrays&sortBy=accuracy">Arrays</a> tagged problems.
   </td>
 </tr>
-  </tbody>
+<tr>
+      <td colspan="3" style="text-align:center; font-weight: bold;">
+        <em>Finished all problems except those with testcase errors as of 2nd March</em>
+      </td>
+</tr>
+</tbody>
 </table>
 
 </details>
