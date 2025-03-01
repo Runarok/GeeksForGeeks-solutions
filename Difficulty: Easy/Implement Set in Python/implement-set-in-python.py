@@ -4,47 +4,62 @@
 
 # } Driver Code Ends
 
-# User function Template for python3
+#User function Template for python3
 
-# Read input set as integers
-st = {int(x) for x in input().split()}
-
-# Read the integer to be inserted
-i = int(input())
-
-# Read the integer to be removed
-r = int(input())
-
-########### Write your code below ###############
-# Insert 'i' into the set. Set automatically handles duplicates, so no need to check.
-st.add(i)
-########### Write your code above ###############
-
-# Print the set elements in sorted order after insertion
-for element in sorted(st):
-    print(element, end=' ')
-print()
-
-########### Write your code below ###############
-# Remove 'r' from the set if it exists. discard() does not raise an error if 'r' is not found.
-st.discard(r)
-########### Write your code above ###############
-
-# Print the set elements in sorted order after removal
-for element in sorted(st):
-    print(element, end=' ')
-print()
-
-########### Write your code below ###############
-# Calculate sum of all elements currently in the set
-sum_of_elements = sum(st)
-########### Write your code above ###############
-
-# Print the sum of set elements
-print(sum_of_elements)
-
-
+# Function to insert an element into the set
+def insert(s, element):
+    s.add(element)
+    
+    
+# Function to remove an element from the set
+def remove_from_set(s, element):
+    s.discard(element)
+    
+    
+# Function to find sum of elements in the set
+def sum_set(s):
+    return sum(s)
 
 #{ 
  # Driver Code Starts.
+
+# Driver Code
+def main():
+    
+    # Testcase input
+    testcase = int(input())
+    
+    # looping through testcases
+    while testcase > 0:
+        query = int(input())
+        st = {int(x) for x in input().split()}
+        
+        while query > 0:
+            
+            q = input().split()
+            
+            if(q[0] == 'i'):
+                element = int(q[1])
+                insert(st, element)
+                for i in sorted(st):
+                    print (i, end=' ')
+                print ()
+                
+            if(q[0] == 'r'):
+                element = int(q[1])
+                remove_from_set(st, element)
+                for i in sorted(st):
+                    print (i, end=' ')
+                print ()
+            
+            if(q[0] == 's'):
+                print (sum_set(st))
+            
+            query -= 1
+            
+        testcase -= 1
+
+        print("~")
+if __name__ == '__main__':
+    main()
 # } Driver Code Ends
