@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/be-precise-in-c/1?page=1&status=unsolved&sortBy=accuracy">Be Precise in C</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">There are times when your answer is a floating point that contains an undesired amount of digits after the decimal. Here, we have<strong>&nbsp;to get a precise answer out of a floating number</strong>.</span></p>
+<p><span style="font-size: 14pt;">You are given two floating numbers <strong>a</strong> and <strong>b</strong>. You need to output <strong>a/b</strong> up to&nbsp;<strong>3</strong> places&nbsp;<span style="box-sizing: border-box; margin: 0px; padding: 0px;">precision&nbsp;<strong>after</strong></span><strong>&nbsp;the decimal point.</strong></span></p>
+<p><span style="font-size: 14pt;"><strong>Example:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> a = 5.43, b = 2.653
+<strong>Output:</strong> 2.047
+</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;= a, b &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
