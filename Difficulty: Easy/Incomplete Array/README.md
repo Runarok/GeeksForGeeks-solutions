@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/incomplete-array3859/1?page=2&status=unsolved&sortBy=accuracy">Incomplete Array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer array <strong>arr[]</strong>, the task is to find how many elements should be added such that all elements between the <strong>maximum element</strong>&nbsp;and <strong>minimum</strong> <strong>element</strong> are present in the array.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [205, 173, 102, 324, 957]
+<strong>Output: </strong>851
+<strong>Explanation: </strong>The maximum element is 957 and the minimum element is 102. Total elements from 102 to 957 = 854, out of which 3 are already present. So answer is 851.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input:</span></strong><span style="font-size: 18px;"> arr[] = [3, 4, 4, 8]<br><strong>Output: </strong>3<strong><br></strong></span><strong><span style="font-size: 18px;">Explanation: </span></strong><span style="font-size: 18px;">The maximum element is 8 and the minimum element is 3. Total elements from 3 to 8 = 6, out of which 3 are already present. So, answer is 3.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [545]
+<strong>Output: </strong>0
+<strong>Explanation: </strong>We don't need to add any elements to the array.<br></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>5</sup><br>1 &lt;= arr[i] &lt;= 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;<code>Data Structures</code>&nbsp;
