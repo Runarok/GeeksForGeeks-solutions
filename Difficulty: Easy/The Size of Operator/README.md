@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/the-size-of-operator--141631/1?page=10&status=unsolved&sortBy=accuracy">The Size of Operator</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">We'll learn the use of <strong>sizeof() </strong>operator in C. This operator is a<strong> unary type&nbsp;</strong>-- it takes only one operand as input and outputs the <strong>size in bytes of the operand</strong>.<br>You will be given four different variables of different data types: <strong>a (int)</strong>, <strong>b (float)</strong>, <strong>c (double)</strong>,<strong>d (long long)</strong>. Your task is to print size in bytes of these four data types.</span><br>&nbsp;</p>
+<p><span style="font-size: 18px;"><strong>Example:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>a = 5, b = 5.0, c = 2.632424, d = 4
+<strong>Output: </strong>4 4 8 8
+<strong>Explanation: </strong>Output is the respective size of int, float, double and long long.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= a, b, c &lt;= 10<sup>6</sup><br>1 &lt;= d&nbsp;&lt;= 10<sup>18</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>cpp-operator</code>&nbsp;
