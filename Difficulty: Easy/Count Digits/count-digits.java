@@ -1,45 +1,43 @@
 //{ Driver Code Starts
 // Initial Template for Java
 
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
-class Main {
+class GFG {
+    public static void main(String args[]) throws IOException {
+        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
+        int t = Integer.parseInt(read.readLine());
+        while (t-- > 0) {
+            int N = Integer.parseInt(read.readLine());
+            Solution ob = new Solution();
+            System.out.println(ob.evenlyDivides(N));
 
-    
+            System.out.println("~");
+        }
+    }
+}
 // } Driver Code Ends
 
 // User function Template for Java
 
-public static int countDigits(int n) {
-    // Initialize a counter for the number of digits
-    int count = 0;
+class Solution {
+    // Function to count how many digits of 'n' divide 'n' evenly
+    static int evenlyDivides(int n) {
+        int num = n;  // Store the original number
+        int count = 0; // Counter to keep track of divisible digits
+        int val = 0;   // Variable to hold the current digit
 
-    // Loop until the number becomes 0
-    while (n > 0) {
-        // Divide n by 10 to remove the last digit
-        n = n / 10;
-        // Increment the digit count
-        count = count + 1;
-    }
-
-    // Return the total count of digits
-    return count;
-}
-
-
-
-//{ Driver Code Starts.
-
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int t = scn.nextInt();
-        while (t-- > 0) {
-            int n = scn.nextInt();
-            System.out.println(countDigits(n));
-
-            System.out.println("~");
+        // Loop through each digit of the number
+        while (num > 0) {
+            val = num % 10;  // Extract the last digit
+            if (val != 0 && n % val == 0) {  // If the digit is non-zero and divides 'n' evenly
+                count++;  // Increment the count
+            }
+            num = num / 10;  // Remove the last digit
         }
-        scn.close();
+        
+        // Return the count of digits that divide 'n' evenly
+        return count;
     }
 }
-// } Driver Code Ends
