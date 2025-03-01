@@ -4,21 +4,33 @@
 
 # } Driver Code Ends
 
-#User function Template for python3
+
+# User function Template for python3
 
 # Function to insert an element into the set
+# No return value and no print statement
 def insert(s, element):
+    # Add the element to the set
     s.add(element)
-    
-    
+
 # Function to remove an element from the set
+# No return value and no print statement
 def remove_from_set(s, element):
-    s.discard(element)
-    
-    
-# Function to find sum of elements in the set
+    # Remove the element from the set
+    s.remove(element)
+
+# Function to find the sum of elements in the set
+# Return the sum of elements in the set
 def sum_set(s):
-    return sum(s)
+    # Calculate the sum of all elements in the set
+    total = 0
+    for i in s:
+        total += i
+    return total
+ 
+
+
+
 
 #{ 
  # Driver Code Starts.
