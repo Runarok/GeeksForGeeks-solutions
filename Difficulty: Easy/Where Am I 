@@ -1,0 +1,42 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/where-am-i4410/1?page=2&status=unsolved&sortBy=accuracy">Where Am I ?</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">You are given a set of movements of a person, find out his total displacement from origin and the direction in which he will be facing if initially he was facing North and standing at origin. The movements can be any one of the following four:</span></p>
+
+<ul>
+	<li><span style="font-size:18px">Up: Representing forward movement, denoted by 'U', along with the distance in that direction.</span></li>
+	<li><span style="font-size:18px">Down:&nbsp;Representing backward movement,&nbsp;denoted by 'D', along with the distance in that direction. The direction of his face will be in opposite of which he was facing to earlier.</span></li>
+	<li><span style="font-size:18px">Left: Representing Left turn and then a forward movement, denoted by 'L', along with the distance in that direction. The direction of his face will turn to the left side to which he was facing to earlier, For e.g, if he was facing North, after this movement he will face West.</span></li>
+	<li><span style="font-size:18px">Right: Representing a Right turn and then a forward movement, denoted by 'R', along with the distance in that direction. The direction of his face will turn to the right of which he was facing to earlier, For e.g, if he was facing North after this movement he will face East.</span></li>
+</ul>
+
+<p><br>
+<span style="font-size:18px"><strong>Example 1:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input</strong>: m = 5
+Arr = {{'U',1},{'R',1},{'R',1},{'R',1},{'R',0}}</span><span style="font-size:18px">
+<strong>Output: </strong>{0,'N'}
+<strong>Explanation</strong>: After completing 5 movement as
+given the final displacement of the person
+is 0 and he is facing North.  </span>
+</pre>
+
+<p><br>
+<span style="font-size:18px"><strong>Example 2:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input: </strong>m = 4
+Arr = {{'U',1},{'U',1},{'U',2},{'D',1}}
+<strong>Output:&nbsp;</strong>{3,'S'}
+<strong>Explanation</strong>: After completing 4 movement as
+given the final displacement of the person
+is 3 and he is facing South. 
+</span></pre>
+
+<p><br>
+<span style="font-size:18px"><strong>Your Task:&nbsp;&nbsp;</strong><br>
+You dont need to read input or print anything. Complete the function <strong>whereAmI()&nbsp;</strong>which takes l&nbsp;and r&nbsp;as input parameter and returns&nbsp;the final displacement of the&nbsp;person from origin and the final direction('N' for North, 'S' for South, 'E' for East,&nbsp;'W' for West) to which he is facing. If the displacement is a fraction, output its floor( after truncating the fractional part) value.</span><br>
+<br>
+<span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(m)<br>
+<strong>Expected Auxiliary Space:</strong> O(1)<br>
+<br>
+<strong>Constraints:</strong><br>
+1 &lt;= m&nbsp;&lt;=100<br>
+1 &lt;= d&nbsp; &lt;=10</span></p>
+</div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Algorithms</code>&nbsp;
