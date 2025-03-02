@@ -2,10 +2,10 @@
 
 <div align="center">
     <h1 style="display: inline; vertical-align: middle;">GeeksForGeeks Solutions Repository 🧑‍💻</h1>
+    <strong>👋 Hello Visitor Nr</strong><br>
+    <img src="https://profile-counter.glitch.me/Runarok-GeeksForGeeks-solutions/count.svg?" /><br>
 </div>
     
-<img src="https://img.shields.io/badge/Visitors%20Count-1234-blue" align="right">
-
 Welcome to my repository of solutions to various problems from **GeeksforGeeks (GFG)**! 🎉  
 The solutions are neatly organized by difficulty and problem categories, making it easy to navigate and explore. 
 
