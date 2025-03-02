@@ -9,7 +9,7 @@
 <img src="https://visitor-badge.laobi.icu/badge?page_id=Runarok.GeeksForGeeks-solutions" align="right"/>
 <img src="https://img.shields.io/github/stars/Runarok/GeeksForGeeks-solutions?style=social" align="right"/>
 
-Welcome to my repository of solutions to various problems from **GeeksforGeeks (GFG)**! 🎉  
+Welcome to my repository of solutions to various problems from **GeeksforGeeks(GFG)**!🎉  
 The solutions are neatly organized by difficulty and problem categories, making it easy to navigate and explore. 
 
 > **My GeeksforGeeks profile**: [RunarokHrafn](https://www.geeksforgeeks.org/user/runarokhrafn/) 
