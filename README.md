@@ -1,11 +1,14 @@
-<!-- <img src="https://raw.githubusercontent.com/Runarok/GeeksForGeeks-solutions/main/Assets/GFG_NO_Background.png" alt="Runarok Logo" width="60" style="vertical-align: middle; padding-right: 10px;"> -->
+<!-- 
+<img src="https://raw.githubusercontent.com/Runarok/GeeksForGeeks-solutions/main/Assets/GFG_NO_Background.png" alt="Runarok Logo" width="60" style="vertical-align: middle; padding-right: 10px;"> 
+<img src="https://profile-counter.glitch.me/Runarok-GeeksForGeeks-solutions/count.svg?" />
+<strong>👋 Hello Visitor Nr</strong><br>
 
-<div align="center">
-    <h1 style="display: inline; vertical-align: middle;">GeeksForGeeks Solutions Repository 🧑‍💻</h1>
-    <strong>👋 Hello Visitor Nr</strong><br>
-    <img src="https://profile-counter.glitch.me/Runarok-GeeksForGeeks-solutions/count.svg?" /><br>
-</div>
-    
+-->
+
+<h1 style="display: inline; vertical-align: middle;">GeeksForGeeks Solutions Repository 🧑‍💻</h1>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Runarok.GeeksForGeeks-solutions" align="right"/>
+<img src="https://img.shields.io/github/stars/Runarok/GeeksForGeeks-solutions?style=social" align="right"/>
+
 Welcome to my repository of solutions to various problems from **GeeksforGeeks (GFG)**! 🎉  
 The solutions are neatly organized by difficulty and problem categories, making it easy to navigate and explore. 
 
