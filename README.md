@@ -181,3 +181,15 @@ Since **GeeksforGeeks** regularly adds new questions, my progress may not be fix
 I’m not doing this to create a portfolio or for external validation. I simply enjoy the satisfaction of completing something, similar to achieving 100% in a game. I also love coding and the learning process. My goal is to work through all the problems on GeeksforGeeks, improving my skills as I go. I focus on enjoying the journey and learning at my own pace rather than stressing myself out.
 
 > This repository idea was inspired by [iamarghamallick's repository](https://github.com/iamarghamallick), whose solutions you can view [here](https://github.com/iamarghamallick/GeeksforGeeks-Solutions/tree/main).
+
+Got it! You want to update the **GeeksForGeeks repository’s README** to mention that you’ve created a new LeetCode solutions repository.
+
+Here’s a well-written section you can **add to the bottom of your GeeksForGeeks repository `README.md`**, to let visitors know about your new LeetCode project:
+
+---
+
+## 📘 New Repository: LeetCode Solutions
+
+While this repository focuses on solving problems from **GeeksForGeeks**, I’ve also started working through problems on **LeetCode**.
+
+Check it out here: [Runarok/LeetSolutions](https://github.com/Runarok/LeetSolutions)
