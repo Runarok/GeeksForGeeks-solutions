@@ -189,3 +189,20 @@ I’m not doing this to create a portfolio or for external validation. I simply 
 While this repository focuses on solving problems from **GeeksForGeeks**, I’ve also started working through problems on **LeetCode**.
 
 Check it out here: [Runarok/LeetSolutions](https://github.com/Runarok/LeetSolutions)
+
+---
+
+> ### Repository Status
+>
+> **Archived — no longer actively maintained.**
+>
+> This repository represents my GeeksforGeeks solving progress up to **02 March 2025**.
+> At that point, I had completed almost every problem available to me except a few with testcase/platform issues.
+>
+> Since then, GeeksforGeeks has added hundreds of new problems (500+ more as of 22 May 2026), but I currently have no interest or time to continue maintaining or updating this repository.
+>
+> This repository is now preserved as a completed concept project, learning archive, and part of my experimentation trail.
+>
+> Search `user:runarok topic:concept-repo` to find all concept repositories I’ve made.
+
+---  
