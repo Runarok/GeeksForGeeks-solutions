@@ -182,10 +182,6 @@ I’m not doing this to create a portfolio or for external validation. I simply 
 
 > This repository idea was inspired by [iamarghamallick's repository](https://github.com/iamarghamallick), whose solutions you can view [here](https://github.com/iamarghamallick/GeeksforGeeks-Solutions/tree/main).
 
-Got it! You want to update the **GeeksForGeeks repository’s README** to mention that you’ve created a new LeetCode solutions repository.
-
-Here’s a well-written section you can **add to the bottom of your GeeksForGeeks repository `README.md`**, to let visitors know about your new LeetCode project:
-
 ---
 
 ## 📘 New Repository: LeetCode Solutions
